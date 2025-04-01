@@ -13,15 +13,15 @@
                 <ul class="header-eight__topbar__info">
                     <li>
                         <i class="flaticon-email-2"></i>
-                        <a href="mailto:needhelp@linoor.com">needhelp@linoor.com</a>
+                        <a href="mailto:contato@versys.com">contato@versys.com</a>
                     </li>
                     <li>
                         <i class="flaticon-pin-1"></i>
-                        Suite 20 Golden Street USA
+                        Avenida Carlos Gomes 700, 606 - Boa Vista, Porto Alegre - RS | 90480-000
                     </li>
                 </ul>
                 <div class="header-eight__topbar__right">
-                    <p>Welcome to Amazing Consulting Agency.</p>
+                    <p>Bem-vindo a Versys consultoria</p>
                     <div class="header-eight__topbar__social">
                         <a href="#" class="fab fa-facebook-square"></a>
                         <a href="#" class="fab fa-twitter"></a>
@@ -37,7 +37,7 @@
                     <div class="mainmenu-eight__left">
                         <a href="<?php echo home_url(); ?>">
                             <img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-8-light.png"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo-branca.avif"
                                 width="134"
                                 alt="Linoor - Digital Agency NextJS Template"
                             />
@@ -65,13 +65,13 @@
                                 <span class="flaticon-magnifying-glass"></span>
                             </button>
                         </div>
-                        <a href="tel:+926668880000" class="mainmenu-eight__call">
+                        <a href="https://api.whatsapp.com/send?phone=555198987137" class="mainmenu-eight__call">
                             <span class="mainmenu-eight__call__icon">
-                                <i class="flaticon-phone"></i>
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
                             </span>
                             <span class="mainmenu-eight__call__text">
-                                Have any questions? <br />Free:
-                                <strong>+ 92 666 888 0000</strong>
+                                Entre em contato <br />WhatsApp:
+                                <strong>(51) 9 9898-7137</strong>
                             </span>
                         </a>
                     </div>
