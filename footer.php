@@ -1,85 +1,107 @@
-        <!--  Footer  -->
-        <footer id="footer" data-aos="fade">
-            <div class="container">
-                <div class="row main-wrapper">
-                    <div class="col-12 col-md-4">
-                        <div class="logo-footer">
-                            <!-- -small, -medium, -big -->
-                            <div class="image--small">
-                                <img data-unveil src="#" data-src="assets/img/Logo@2x.png" alt="">
+<!--  Footer  -->
+<footer class="main-footer">
+    <div class="auto-container">
+        <div class="widgets-section">
+            <div class="clearfix row">
+                <!-- Logo Widget -->
+                <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-widget logo-widget">
+                        <div class="widget-content">
+                            <div class="logo">
+                                <a href="/"><img id="fLogo"  src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo-branca.avif" alt="" class=""></a>
                             </div>
-                            <h6>Collins Street West 8007, San Fransico, United States.</h6>
-                            <p>Utenim ad minim veniam quis nostrud exercitation ullamco lorem ipsum dolor sit ametullamco lorem ipsum</p>
-                            <div class="list-element--text--separator">
-                                <ul>
-                                    <li><a href="">support@company.com</a></li>
-                                    <li><a href="">+02 3205550678</a></li>
-                                </ul>
+                            <div class="text">
+                                Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.
                             </div>
-                            <div class="social-element--round--border--small">
-                                <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="far fa-envelope"></i></a></li>
-                                </ul>
-                            </div>
+                            <ul class="social-links clearfix">
+                                <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="row">
-                            <div class="col-6 col-md-6">
-                                <div class="list-element--text">
-                                    <h6>Menu</h6>
+                </div>
+                <!-- Links Widget -->
+                <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-widget links-widget">
+                        <div class="widget-content">
+                            <h6>Explore</h6>
+                            <div class="clearfix row">
+                                <div class="col-md-6 col-sm-12">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="portfolio.html">Portfolio</a></li>
-                                        <li><a href="style-guide.html">Style Guide</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/about">About</a></li>
+                                        <li><a href="/team">Meet Our Team</a></li>
+                                        <li><a href="/portfolio">Our Portfolio</a></li>
+                                        <li><a href="/blog">Latest News</a></li>
+                                        <li><a href="/contact">Contact</a></li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="col-6 col-md-6">
-                                <div class="list-element--text">
-                                    <h6>Pages</h6>
+                                <div class="col-md-6 col-sm-12">
                                     <ul>
-                                        <li><a href="privacy.html">Support</a></li>
-                                        <li><a href="privacy.html">Term of services</a></li>
-                                        <li><a href="privacy.html">RSS Feed</a></li>
-                                        <li><a href="plugins.html">Plugins</a></li>
-                                        <li><a href="blog-sidebar.html">Latest news</a></li>
+                                        <li><a href="/faqs">Support</a></li>
+                                        <li><a href="/faqs">Privacy Policy</a></li>
+                                        <li><a href="/faqs">Terms of Use</a></li>
+                                        <li><a href="/faqs">Help</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="info-footer">
-                            <h6>You can trust us</h6>
-                            <p>Utenim ad minim veniam quis nostrud exercitation ullamco lorem ipsum dolor sit ametullamco lorem ipsum dolor sit ametullamco lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmo.</p>
+                </div>
+                <!-- Info Widget -->
+                <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-widget info-widget">
+                        <div class="widget-content">
+                            <h6>Contact</h6>
+                            <ul class="contact-info">
+                                <li class="address">
+                                    <span class="icon flaticon-pin-1"></span>
+                                    66 Broklyn Street, New York <br>United States of America
+                                </li>
+                                <li>
+                                    <span class="icon flaticon-call"></span>
+                                    <a href="tel:666888000">666 888 000</a>
+                                </li>
+                                <li>
+                                    <span class="icon flaticon-email-2"></span>
+                                    <a href="mailto:needhelp@linoor.com">needhelp@linoor.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Newsletter Widget -->
+                <div class="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-widget newsletter-widget">
+                        <div class="widget-content">
+                            <h6>Newsletter</h6>
+                            <div class="newsletter-form">
+                                <form>
+                                    <div class="form-group clearfix">
+                                        <input type="email" name="email" placeholder="Email Address" required="">
+                                        <button type="submit" class="theme-btn"><span class="fa fa-envelope"></span></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="text">
+                                Sign up for our latest news &amp; articles. We won’t give you spam mails.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="copyright">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <p>© 2020 Template Fedelick - Template Handmade by <a href="https://template.bepd.dev/fedelick/" class="simple">bepd.dev</a></p>
-                        </div>
-                    </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="inner clearfix">
+                    <div class="copyright">© copyright 2025 by Linoor</div>
                 </div>
             </div>
-        </footer>
-        <?php wp_footer(); ?>
-        <!--  END Footer  -->
+        </div>
     </div>
-    <!--  Main Wrap  -->
-    <!--  Scripts  -->
-
-
-    <!--  END Scripts  -->
-</body>
+    <?php wp_footer(); ?>
+</footer>
 
 </html>

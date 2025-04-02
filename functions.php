@@ -4,7 +4,7 @@ function tema_personalizado_scripts() {
     // Registrar e carregar arquivos CSS existentes
     wp_enqueue_style('estilo-principal', get_template_directory_uri() . '/assets/css/style.css', array(), '1.0', 'all');
 
-    // Registrar e carregar novos arquivos CSS
+    // Registrar e carregar novos arquivos CSS (header)
     wp_enqueue_style('style-header', get_template_directory_uri() . '/assets_menu/style-header.css', array(), '1.0', 'all');
     wp_enqueue_style('hover-styles', get_template_directory_uri() . '/assets_menu/css/styles/hover.css', array(), '1.0', 'all');
     wp_enqueue_style('responsive-styles', get_template_directory_uri() . '/assets_menu/css/styles/responsive.css', array(), '1.0', 'all');
@@ -14,22 +14,34 @@ function tema_personalizado_scripts() {
     wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets_menu/vendors/fontawesome-all.css', array(), '1.0', 'all');
     wp_enqueue_style('linoor-icons', get_template_directory_uri() . '/assets_menu/vendors/linoor-icons.css', array(), '1.0', 'all');
     wp_enqueue_style('reey-font', get_template_directory_uri() . '/assets_menu/vendors/reey-font.css', array(), '1.0', 'all');
+    
+    // Registrar e carregar JS para o menu
+    wp_enqueue_script('funtions-menu', get_template_directory_uri() . '/assets_menu/js/functions.js', array(), null, true);
 
-    // Registrar e carregar arquivos JavaScript existentes
-    wp_enqueue_script('jquery', get_template_directory_uri() . '/assets/js/jquery.min.js', array(), '1.0', true);
-    wp_enqueue_script('jquery-unveil', get_template_directory_uri() . '/assets/js/jquery.unveil.js', array('jquery'), '1.0', true);
-    wp_enqueue_script('aos', get_template_directory_uri() . '/assets/js/aos.js', array(), '1.0', true);
-    wp_enqueue_script('swiper', get_template_directory_uri() . '/assets/js/swiper.min.js', array(), '1.0', true);
-    wp_enqueue_script('magnific-popup', get_template_directory_uri() . '/assets/js/jquery.magnific-popup.min.js', array(), '1.0', true);
-    wp_enqueue_script('owl-carousel', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array(), '1.0', true);
-    wp_enqueue_script('isotope', get_template_directory_uri() . '/assets/js/isotope.min.js', array(), '1.0', true);
-    wp_enqueue_script('imagesloaded', get_template_directory_uri() . '/assets/js/imagesloaded.min.js', array(), '1.0', true);
-    wp_enqueue_script('carousel', get_template_directory_uri() . '/assets/js/carousel.js', array(), '1.0', true);
-    wp_enqueue_script('menu', get_template_directory_uri() . '/assets/js/menu.js', array(), '1.0', true);
-    wp_enqueue_script('elements', get_template_directory_uri() . '/assets/js/elements.js', array(), '1.0', true);
-    wp_enqueue_script('masonry', get_template_directory_uri() . '/assets/js/masonry.js', array(), '1.0', true);
-    wp_enqueue_script('form', get_template_directory_uri() . '/assets/js/form.js', array(), '1.0', true);
-    wp_enqueue_script('user-scroll', get_template_directory_uri() . '/assets/js/useScroll.js', array(), '1.0', true);
+    // Registrar e carregar os arquivos JavaScript na pasta assets
+    $assets_dir = get_template_directory_uri() . '/assets/';
+    wp_enqueue_script('jquery-custom', $assets_dir . 'js/jquery.js', array(), null, true);
+    wp_enqueue_script('jRespond', $assets_dir . 'js/jRespond.min.js', array(), null, true);
+    wp_enqueue_script('jquery-easing', $assets_dir . 'js/jquery.easing.min.js', array(), null, true);
+    wp_enqueue_script('jquery-fitvids', $assets_dir . 'js/jquery.fitvids.js', array(), null, true);
+    wp_enqueue_script('wow', $assets_dir . 'js/wow.min.js', array(), null, true);
+    wp_enqueue_script('jquery-stellar', $assets_dir . 'js/jquery.stellar.js', array(), null, true);
+    wp_enqueue_script('owl-carousel', $assets_dir . 'js/owl.carousel.min.js', array(), null, true);
+    // wp_enqueue_script('jquery-mb-YTPlayer', $assets_dir . 'js/jquery.mb.YTPlayer.min.js', array(), null, true);
+    wp_enqueue_script('hoverIntent', $assets_dir . 'js/hoverIntent.js', array(), null, true);
+    wp_enqueue_script('simple-scrollbar', $assets_dir . 'js/simple-scrollbar.min.js', array(), null, true);
+    wp_enqueue_script('superfish', $assets_dir . 'js/superfish.js', array(), null, true);
+    wp_enqueue_script('scrollIt', $assets_dir . 'js/scrollIt.min.js', array(), null, true);
+    wp_enqueue_script('isotope', $assets_dir . 'js/isotope.pkgd.min.js', array(), null, true);
+    wp_enqueue_script('magnific-popup', $assets_dir . 'js/jquery.magnific-popup.min.js', array(), null, true);
+    wp_enqueue_script('wait-for-images', $assets_dir . 'js/jquery.waitforimages.min.js', array(), null, true);
+    wp_enqueue_script('jquery-validate', $assets_dir . 'js/jquery.validate.min.js', array(), null, true);
+    wp_enqueue_script('google-map', $assets_dir . 'js/google-map.js', array(), null, true);
+
+    // Enfileirando o script do Google Maps diretamente
+    wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAA1vAzZpKh9vsQvF3e4MeClkyYB-MWtnA&callback=initMap', array(), null, true);
+
+    wp_enqueue_script('functions', $assets_dir . 'js/functions.js', array(), null, true);
 }
 
 // Adiciona o hook para a ação wp_enqueue_scripts
