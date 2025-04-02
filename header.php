@@ -37,7 +37,7 @@
                     <div class="mainmenu-eight__left">
                         <a href="<?php echo home_url(); ?>">
                             <img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo-branca.avif"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-branca.png"
                                 width="134"
                                 alt="Linoor - Digital Agency NextJS Template"
                             />

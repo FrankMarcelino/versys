@@ -10196,7 +10196,7 @@ img {
 /*  [ 07 ] - Strong
 ====================== */
 strong {
-  color: #222;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -10735,7 +10735,6 @@ select.form-control {
   padding: 0 15px;
   transition: all 0.2s;
   box-shadow: none;
-  border: 1px solid #ebeef0;
   background: #fafbfc;
 }
 
