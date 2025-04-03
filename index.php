@@ -173,7 +173,7 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 
-							<h2>Our great services</h2>
+							<h2>Nossos Serviços</h2>
 							<p>
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
 							</p>
@@ -191,10 +191,10 @@
 						<div class="col-md-12">
 
 							<ul class="os-tabs">
-								<li class="active"><i class="fa fa-plane"></i>Airline Tickets</li>
-								<li><i class="fa fa-globe"></i>Worldwide Tours</li>
-								<li><i class="fa fa-bank"></i>Hotel Reservation</li>
-								<li><i class="fa fa-heartbeat"></i>Medical Tours</li>
+								<li class="active"><i class="fa fa-plane"></i>Mapeamento aéreo</li>
+								<li><i class="fa fa-globe"></i>Estudo de análise de riscos | ARESP</li>
+								<li><i class="fa fa-bank"></i>Plano de segurança portuária</li>
+								<li><i class="fa fa-heartbeat"></i>Auditoria interna de conformidade</li>
 							</ul><!-- .os-tabs end -->
 
 							<div class="row">
@@ -203,16 +203,16 @@
 									<li class="active">
 										<div class="col-md-7">
 
-											<h4>Airline Tickets</h4>
+											<h4>Mapeamento aéreo</h4>
 											<p>
-												Duis ac adipiscing risus. Fusce posuere hendrerit velit sit amet scelerisque. Fusce ac nulla mauris. In accumsan eget sapien ut aliquet. Nunc pellentesque nisl at ante fermentum porta. Vestibulum dapibus sed leo nec condimentum.
+											Nossos projetos contam com a utilização de drones, que nos permitem realizar mapeamentos aéreos precisos e abrangentes. Essa tecnologia de ponta nos proporciona insights detalhados e perspectivas únicas, fortalecendo nossa capacidade de criar estratégias de segurança excepcionais para cada Terminal.
 											</p>
 											<ul class="list check-square">
-												<li>Nam sit amet eros vel nunc pharetra imperdiet.</li>
-												<li>Nulla mattis lacus pharetra aliquet porttitor.</li>
-												<li>Phasellus sodales ligula in odio facilisis, quis fermentum tellus dapibus.</li>
-												<li>Mauris vel massa id lacus iaculis accumsan at in augue.</li>
-												<li>Aenean convallis metus a ultricies pharetra.</li>
+												<li>Estudo de análise de riscos | ARESP</li>
+												<li>Auditoria interna de conformidade</li>
+												<li>Plano de segurança portuária</li>
+												<li>Mapeamento aéreo</li>
+												
 											</ul><!-- .list.check-square end -->
 											<p>
 												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non ligula interdum mollis. Nullam dui mauris, aliquam id luctus sit amet.
@@ -221,7 +221,7 @@
 										<div class="col-md-5">
 
 											<div class="img-preview">
-												<img src="http://placehold.it/430x320" alt="">
+												<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/alumar/1.jpg" alt="">
 											</div><!-- .img-preview end -->
 
 
