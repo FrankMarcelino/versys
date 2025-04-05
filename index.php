@@ -20,7 +20,7 @@
 					<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
 					<div class="overlay-pattern" data-bg-color="#000" data-bg-color-opacity="0"></div><!-- .overlay-pattern end -->
 					<div class="slide">
-					<img src="<?php echo get_template_directory_uri(); ?>http://placehold.it/1600x760"/>
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/hero/bg-1.avif"/>
 						<div class="slide-content">
 							<div class="container">
 								<div class="row">
@@ -28,19 +28,25 @@
 
 										<div class="banner-center-box text-center">
 											<h1>
-												Awesome & Creative<br><span class="colored">Travel Template</span>
+												Consultoria em<br><span class="colored">segurança portuarias</span>
 											</h1>
 											<div class="description">
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+												Protegendo seu ambiente portuário com tecnologia de ponta e segurança incomparável
 											</div>
-											<a class="btn colorful large hover-dark" href="#">Eplore More</a>
-										</div><!-- .banner-center-box end -->
-
-									</div><!-- .col-md-12 end -->
-								</div><!-- .row end -->
-							</div><!-- .container end -->
-						</div><!-- .slide-content end -->
-					</div><!-- .slide end -->
+											<a class="btn colorful medium hover-dark" href="#">Acessar Plataforma</a>
+											<a class="btn white medium hover-dark" href="#">Conheça nossas soluções</a>
+										</div>
+										<!-- .banner-center-box end -->
+									</div>
+									<!-- .col-md-12 end -->
+								</div>
+								<!-- .row end -->
+							</div>
+							<!-- .container end -->
+						</div>
+						<!-- .slide-content end -->
+					</div>
+					<!-- .slide end -->
 				</li>
 				<li>
 					<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
@@ -53,16 +59,16 @@
 								<div class="row">
 									<div class="col-md-8 col-md-offset-2">
 
-										<div class="banner-center-box text-center">
+									<div class="banner-center-box text-center">
 											<h1>
-												Awesome & Creative<br><span class="colored">Travel Template</span>
+												Consultoria em<br><span class="colored">segurança portuarias</span>
 											</h1>
 											<div class="description">
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+												Protegendo seu ambiente portuário com tecnologia de ponta e segurança incomparável
 											</div>
-											<a class="btn colorful large hover-dark" href="#">Eplore More</a>
-										</div><!-- .banner-center-box end -->
-
+											<a class="btn colorful medium hover-dark" href="#">Acessar Plataforma</a>
+											<a class="btn white medium hover-dark" href="#">Conheça nossas soluções</a>
+										</div>
 									</div><!-- .col-md-12 end -->
 								</div><!-- .row end -->
 							</div><!-- .container end -->
