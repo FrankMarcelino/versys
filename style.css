@@ -6,3 +6,52 @@ Author URI: http://surrealiza.com
 Description: Um tema WordPress criado a partir de código puro.
 Version: 1.0
 */
+
+/* Estilização básica */
+.sponsor-carousel {
+  width: 100%;
+  overflow: hidden;
+  /* Oculta o conteúdo que sai do contêiner */
+  position: relative;
+}
+
+.carousel-container {
+  width: 100%;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  /* Alinha os itens em linha */
+  flex-wrap: nowrap;
+  /* Impede a quebra para múltiplas linhas */
+  width: auto;
+  /* Ajusta a largura automaticamente */
+  animation: scrollCarousel 10s linear infinite;
+}
+
+.carousel-slide {
+  flex: 0 0 auto;
+  /* Mantém o tamanho de cada slide */
+  width: 100%;
+  /* Ajuste conforme o tamanho do contêiner */
+}
+
+.carousel-slide img {
+  width: 100%;
+  /* Garante que a imagem preencha o slide */
+  display: block;
+}
+
+/* Animação do carrossel */
+@keyframes scrollCarousel {
+  0% {
+    transform: translateX(0);
+    /* Início da animação */
+  }
+
+  100% {
+    transform: translateX(-300%);
+    /* Move todo o carrossel (-3 slides) */
+  }
+}

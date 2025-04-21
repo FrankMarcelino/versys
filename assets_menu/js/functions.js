@@ -85,3 +85,84 @@ setupActiveSection({
   activeClass: "active", // Classe ativa a ser aplicada aos links
   offset: 100, // Offset para ativação
 });
+
+// Obtém a data e hora atuais
+const now = new Date();
+
+// Formata o dia da semana
+const diaDaSemana = now.toLocaleDateString("pt-BR", { weekday: "long" });
+
+// Formata a data (dd/mm/aaaa)
+const dataFormatada = now.toLocaleDateString("pt-BR", {
+  day: "2-digit",
+  month: "2-digit",
+  year: "numeric",
+});
+
+// Formata a hora (hh:mm)
+const horaFormatada = now.toLocaleTimeString("pt-BR", {
+  hour: "2-digit",
+  minute: "2-digit",
+});
+
+// Insere o dia da semana e a data no elemento correspondente
+document.querySelector(".fa-calendar").parentElement.innerHTML = `
+  <i class="fa fa-calendar" aria-hidden="true"></i> ${diaDaSemana}, ${dataFormatada}
+`;
+
+// Insere a hora no elemento correspondente
+document.querySelector(".fa-clock-o").parentElement.innerHTML = `
+  <i class="fa fa-clock-o" aria-hidden="true"></i> ${horaFormatada}
+`;
+
+function animateCounter() {
+  // Seleciona todos os elementos com a classe count-text
+  const counters = document.querySelectorAll(".count-text span");
+
+  counters.forEach((counter) => {
+    const target = parseInt(counter.textContent); // Número alvo
+    let current = 0; // Valor inicial
+    const increment = Math.ceil(target / 100); // Incremento calculado
+
+    const updateCounter = () => {
+      if (current < target) {
+        current += increment; // Incrementa progressivamente
+        counter.textContent = current > target ? target : current; // Atualiza o valor
+        setTimeout(updateCounter, 30); // Define o intervalo de atualização
+      }
+    };
+
+    updateCounter(); // Inicia a animação
+  });
+}
+
+// Dispara a animação ao carregar a página
+window.onload = animateCounter;
+
+// abas do sobre a empresa
+// Adiciona evento de clique aos botões de aba
+document.addEventListener("DOMContentLoaded", () => {
+  const tabs = document.querySelectorAll(".tab-btn");
+  const sections = document.querySelectorAll(".tabs-content .tab");
+
+  // Função para remover a classe ativa de todos os botões e seções
+  function removeActiveClasses() {
+    tabs.forEach((tab) => tab.classList.remove("active-btn"));
+    sections.forEach((section) =>
+      section.classList.remove("active-tab", "fadeInUp")
+    );
+  }
+
+  // Adicionar evento de clique a cada botão de aba
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+      removeActiveClasses();
+      tab.classList.add("active-btn"); // Adiciona classe ativa ao botão
+      sections[index]?.classList.add("active-tab", "fadeInUp"); // Adiciona classes à aba correspondente
+    });
+  });
+
+  // Configuração inicial para ativar o primeiro botão e a primeira aba
+  tabs[0]?.classList.add("active-btn");
+  sections[0]?.classList.add("active-tab", "fadeInUp");
+});

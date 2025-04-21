@@ -1,1384 +1,1142 @@
-<?php get_header(); ?>  
+<?php get_header(); ?>
 
-<!-- Page Header -->
-<!-- teste-2php -->
-<!-- End Page Header -->
+<!-- Full Container -->
 <div id="full-container">
 
-<!-- Header
-============================================= -->
-
-<!-- Slider
-============================================= -->
-<section id="banner">
-
-	<div id="home" class="banner-parallax" data-scroll-index="0">
-
-		<div class="banner-slider">
-			<ul class="owl-carousel slider-img-bg">
-				<li>
-					<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
-					<div class="overlay-pattern" data-bg-color="#000" data-bg-color-opacity="0"></div><!-- .overlay-pattern end -->
-					<div class="slide">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/hero/bg-1.avif"/>
-						<div class="slide-content">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-8 col-md-offset-2">
-
-										<div class="banner-center-box text-center">
-											<h1>
-												Consultoria em<br><span class="colored">segurança portuarias</span>
-											</h1>
-											<div class="description">
-												Protegendo seu ambiente portuário com tecnologia de ponta e segurança incomparável
-											</div>
-											<a class="btn colorful medium hover-dark" href="#">Acessar Plataforma</a>
-											<a class="btn white medium hover-dark" href="#">Conheça nossas soluções</a>
-										</div>
-										<!-- .banner-center-box end -->
-									</div>
-									<!-- .col-md-12 end -->
-								</div>
-								<!-- .row end -->
-							</div>
-							<!-- .container end -->
-						</div>
-						<!-- .slide-content end -->
-					</div>
-					<!-- .slide end -->
-				</li>
-				<li>
-					<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
-					<div class="overlay-pattern" data-bg-color="#000" data-bg-color-opacity="0"></div><!-- .overlay-pattern end -->
-					<div class="slide">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/alumar/2.jpg"/>
-					
-						<div class="slide-content">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-8 col-md-offset-2">
-
-									<div class="banner-center-box text-center">
-											<h1>
-												Consultoria em<br><span class="colored">segurança portuarias</span>
-											</h1>
-											<div class="description">
-												Protegendo seu ambiente portuário com tecnologia de ponta e segurança incomparável
-											</div>
-											<a class="btn colorful medium hover-dark" href="#">Acessar Plataforma</a>
-											<a class="btn white medium hover-dark" href="#">Conheça nossas soluções</a>
-										</div>
-									</div><!-- .col-md-12 end -->
-								</div><!-- .row end -->
-							</div><!-- .container end -->
-						</div><!-- .slide-content end -->
-					</div><!-- .slide end -->
-				</li>
-				<li>
-					<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
-					<div class="overlay-pattern" data-bg-color="#000" data-bg-color-opacity="0"></div><!-- .overlay-pattern end -->
-					<div class="slide">
-						<img src="http://placehold.it/1600x760" alt="">
-						<div class="slide-content">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-8 col-md-offset-2">
-
-										<div class="banner-center-box text-center">
-											<h1>
-												Awesome & Creative<br><span class="colored">Travel Template</span>
-											</h1>
-											<div class="description">
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-											</div>
-											<a class="btn colorful large hover-dark" href="#">Eplore More</a>
-										</div><!-- .banner-center-box end -->
-
-									</div><!-- .col-md-12 end -->
-								</div><!-- .row end -->
-							</div><!-- .container end -->
-						</div><!-- .slide-content end -->
-					</div><!-- .slide end -->
-				</li>
-				<li>
-					<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
-					<div class="overlay-pattern" data-bg-color="#000" data-bg-color-opacity="0"></div><!-- .overlay-pattern end -->
-					<div class="slide">
-						<img src="http://placehold.it/1600x760" alt="">
-						<div class="slide-content">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-8 col-md-offset-2">
-
-										<div class="banner-center-box text-center">
-											<h1>
-												Awesome & Creative<br><span class="colored">Travel Template</span>
-											</h1>
-											<div class="description">
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-											</div>
-											<a class="btn colorful large hover-dark" href="#">Eplore More</a>
-										</div><!-- .banner-center-box end -->
-
-									</div><!-- .col-md-12 end -->
-								</div><!-- .row end -->
-							</div><!-- .container end -->
-						</div><!-- .slide-content end -->
-					</div><!-- .slide end -->
-				</li>
-				<li>
-					<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
-					<div class="overlay-pattern" data-bg-color="#000" data-bg-color-opacity="0"></div><!-- .overlay-pattern end -->
-					<div class="slide">
-						<img src="http://placehold.it/1600x760" alt="">
-						<div class="slide-content">
-							<div class="container">
-								<div class="row">
-									<div class="col-md-8 col-md-offset-2">
-
-										<div class="banner-center-box text-center">
-											<h1>
-												Awesome & Creative<br><span class="colored">Travel Template</span>
-											</h1>
-											<div class="description">
-												Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-											</div>
-											<a class="btn colorful large hover-dark" href="#">Eplore More</a>
-										</div><!-- .banner-center-box end -->
-
-									</div><!-- .col-md-12 end -->
-								</div><!-- .row end -->
-							</div><!-- .container end -->
-						</div><!-- .slide-content end -->
-					</div><!-- .slide end -->
-				</li>
-			</ul>
-		</div>
-		<!-- .banner-slider end -->
-
-	</div>
-	<!-- .banner-parallax end -->
-
-</section>
-
-<!-- #banner end -->
-
-<!-- Content
-============================================= -->
-<section id="content">
-
-	<div id="content-wrap">
-
-		<!-- === Our Services =========== -->
-		<div id="our-services" class="flat-section our-services" data-scroll-index="1">
-
-			<div class="section-title">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-
-							<h2>Nossos Serviços</h2>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-							</p>
-
-						</div><!-- .col-md-8 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-title end -->
-
-			<div class="section-content">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-
-							<ul class="os-tabs">
-								<li class="active"><i class="fa fa-plane"></i>Mapeamento aéreo</li>
-								<li><i class="fa fa-globe"></i>Estudo de análise de riscos | ARESP</li>
-								<li><i class="fa fa-bank"></i>Plano de segurança portuária</li>
-								<li><i class="fa fa-heartbeat"></i>Auditoria interna de conformidade</li>
-							</ul><!-- .os-tabs end -->
-
-							<div class="row">
-
-								<ul class="os-tabs-content">
-									<li class="active">
-										<div class="col-md-7">
-
-											<h4>Mapeamento aéreo</h4>
-											<p>
-											Nossos projetos contam com a utilização de drones, que nos permitem realizar mapeamentos aéreos precisos e abrangentes. Essa tecnologia de ponta nos proporciona insights detalhados e perspectivas únicas, fortalecendo nossa capacidade de criar estratégias de segurança excepcionais para cada Terminal.
-											</p>
-											<ul class="list check-square">
-												<li>Estudo de análise de riscos | ARESP</li>
-												<li>Auditoria interna de conformidade</li>
-												<li>Plano de segurança portuária</li>
-												<li>Mapeamento aéreo</li>
-												
-											</ul><!-- .list.check-square end -->
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non ligula interdum mollis. Nullam dui mauris, aliquam id luctus sit amet.
-											</p>
-										</div><!-- .col-md-7 end -->
-										<div class="col-md-5">
-
-											<div class="img-preview">
-												<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/alumar/1.jpg" alt="">
-											</div><!-- .img-preview end -->
-
-
-										</div><!-- .col-md-5 end -->
-									</li>
-									<li>
-										<div class="col-md-7">
-
-											<h4>Worldwide Tours</h4>
-											<p>
-												Duis ac adipiscing risus. Fusce posuere hendrerit velit sit amet scelerisque. Fusce ac nulla mauris. In accumsan eget sapien ut aliquet. Nunc pellentesque nisl at ante fermentum porta. Vestibulum dapibus sed leo nec condimentum.
-											</p>
-											<ul class="list check-square">
-												<li>Nam sit amet eros vel nunc pharetra imperdiet.</li>
-												<li>Nulla mattis lacus pharetra aliquet porttitor.</li>
-												<li>Phasellus sodales ligula in odio facilisis, quis fermentum tellus dapibus.</li>
-												<li>Mauris vel massa id lacus iaculis accumsan at in augue.</li>
-												<li>Aenean convallis metus a ultricies pharetra.</li>
-											</ul><!-- .list.check-square end -->
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non ligula interdum mollis. Nullam dui mauris, aliquam id luctus sit amet.
-											</p>
-										</div><!-- .col-md-7 end -->
-										<div class="col-md-5">
-
-											<div class="img-preview">
-												<img src="http://placehold.it/430x320" alt="">
-											</div><!-- .img-preview end -->
-
-
-										</div><!-- .col-md-5 end -->
-									</li>
-									<li>
-										<div class="col-md-7">
-
-											<h4>Hotel Reservation</h4>
-											<p>
-												Duis ac adipiscing risus. Fusce posuere hendrerit velit sit amet scelerisque. Fusce ac nulla mauris. In accumsan eget sapien ut aliquet. Nunc pellentesque nisl at ante fermentum porta. Vestibulum dapibus sed leo nec condimentum.
-											</p>
-											<ul class="list check-square">
-												<li>Nam sit amet eros vel nunc pharetra imperdiet.</li>
-												<li>Nulla mattis lacus pharetra aliquet porttitor.</li>
-												<li>Phasellus sodales ligula in odio facilisis, quis fermentum tellus dapibus.</li>
-												<li>Mauris vel massa id lacus iaculis accumsan at in augue.</li>
-												<li>Aenean convallis metus a ultricies pharetra.</li>
-											</ul><!-- .list.check-square end -->
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non ligula interdum mollis. Nullam dui mauris, aliquam id luctus sit amet.
-											</p>
-										</div><!-- .col-md-7 end -->
-										<div class="col-md-5">
-
-											<div class="img-preview">
-												<img src="http://placehold.it/430x320" alt="">
-											</div><!-- .img-preview end -->
-
-
-										</div><!-- .col-md-5 end -->
-									</li>
-									<li>
-										<div class="col-md-7">
-
-											<h4>Medical Tours</h4>
-											<p>
-												Duis ac adipiscing risus. Fusce posuere hendrerit velit sit amet scelerisque. Fusce ac nulla mauris. In accumsan eget sapien ut aliquet. Nunc pellentesque nisl at ante fermentum porta. Vestibulum dapibus sed leo nec condimentum.
-											</p>
-											<ul class="list check-square">
-												<li>Nam sit amet eros vel nunc pharetra imperdiet.</li>
-												<li>Nulla mattis lacus pharetra aliquet porttitor.</li>
-												<li>Phasellus sodales ligula in odio facilisis, quis fermentum tellus dapibus.</li>
-												<li>Mauris vel massa id lacus iaculis accumsan at in augue.</li>
-												<li>Aenean convallis metus a ultricies pharetra.</li>
-											</ul><!-- .list.check-square end -->
-											<p>
-												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas magna non ligula interdum mollis. Nullam dui mauris, aliquam id luctus sit amet.
-											</p>
-
-										</div><!-- .col-md-7 end -->
-										<div class="col-md-5">
-
-											<div class="img-preview">
-												<img src="http://placehold.it/430x320" alt="">
-											</div><!-- .img-preview end -->
-
-
-										</div><!-- .col-md-5 end -->
-									</li>
-								</ul><!-- .os-tabs-content end -->
-
-							</div><!-- .row end -->
-
-						</div><!-- .col-md-12 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-content end -->
-
-		</div><!-- .flat-section end -->
-
-		<!-- === Popular Packages =========== -->
-		<div id="popular-packages" class="flat-section popular-packages" data-scroll-index="1">
-
-			<div class="section-title">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-
-							<h2>Most popular packages</h2>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-							</p>
-
-						</div><!-- .col-md-8 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-title end -->
-
-			<div class="section-content">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-
-							<div class="popular-packages-slider">
-								<ul class="owl-carousel">
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/popular-packages/img-1.jpg" alt=""></a>
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													<div class="rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div><!-- .rating end -->
-													<h5><a href="#">Honeymoon</a></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-													<ul class="meta">
-														<li><i class="fa fa-map-marker"></i>World Wide</li>
-														<li><i class="fa fa-clock-o"></i>7 Days</li>
-														<li><i class="fa fa-usd"></i>2600</li>
-													</ul><!-- .meta end -->
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/popular-packages/img-2.jpg" alt=""></a>
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													<div class="rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div><!-- .rating end -->
-													<h5><a href="#">Mountain tour</a></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-													<ul class="meta">
-														<li><i class="fa fa-map-marker"></i>Alps</li>
-														<li><i class="fa fa-clock-o"></i>2 Days</li>
-														<li><i class="fa fa-usd"></i>1200</li>
-													</ul><!-- .meta end -->
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/popular-packages/img-3.jpg" alt=""></a>
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													<div class="rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div><!-- .rating end -->
-													<h5><a href="#">Medical Tour</a></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-													<ul class="meta">
-														<li><i class="fa fa-map-marker"></i>China</li>
-														<li><i class="fa fa-clock-o"></i>10 Days</li>
-														<li><i class="fa fa-usd"></i>2300</li>
-													</ul><!-- .meta end -->
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/popular-packages/img-4.jpg" alt=""></a>
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													<div class="rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div><!-- .rating end -->
-													<h5><a href="#">Adventures jungle</a></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-													<ul class="meta">
-														<li><i class="fa fa-map-marker"></i>Africa</li>
-														<li><i class="fa fa-clock-o"></i>4 Days</li>
-														<li><i class="fa fa-usd"></i>1600</li>
-													</ul><!-- .meta end -->
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/popular-packages/img-5.jpg" alt=""></a>
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													<div class="rating">
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-														<i class="fa fa-star"></i>
-													</div><!-- .rating end -->
-													<h5><a href="#">Safari tour</a></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-													<ul class="meta">
-														<li><i class="fa fa-map-marker"></i>South Africa</li>
-														<li><i class="fa fa-clock-o"></i>12 Days</li>
-														<li><i class="fa fa-usd"></i>3100</li>
-													</ul><!-- .meta end -->
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-								</ul>
-							</div><!-- .popular-packages-slider end -->
-
-						</div><!-- .col-md-12 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-content end -->
-
-		</div><!-- .flat-section end -->
-
-		<!-- === CTA Title 1 =========== -->
-		<div class="parallax-section cta-title" data-scroll-index="1" data-parallax-bg-img="img-16.jpg" data-stellar-background-ratio="0.2">
-
-			<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.60"></div><!-- .overlay-colored end -->
-			<div class="section-inner">
-
-				<div class="container">
-					<div class="row">
-						<div class="section-content">
-
-							<div class="col-md-8 col-md-offset-2">
-
-								<h1 class="title-big">
-									<span>Great Experiences</span>
-									<br>
-									<span class="colored">For Traveling and Tourism</span>
-								</h1>
-								<a class="btn colorful large hover-dark" href="#">Take Your Tour</a>
-
-							</div><!-- .col-md-8 end -->
-
-						</div><!-- .section-content end -->
-
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-inner end -->
-
-		</div><!-- .parallax-section end -->
-
-		<!-- === Our Adventures =========== -->
-		<div id="our-adventures" class="flat-section our-adventures" data-scroll-index="2">
-
-			<div class="section-title">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-
-							<h2>Our Adventures</h2>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-							</p>
-
-						</div><!-- .col-md-8 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-title end -->
-
-			<div class="portfolio-top"></div>
-			<div class="section-content">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							
-							<ul class="portfolio-categories">
-								<li><a data-filter="*" class="active" href="#">All</a></li>
-								<li><a data-filter=".pi-world-tour" href="#">World Tour</a></li>
-								<li><a data-filter=".pi-ocean-tour" href="#">Ocean Tour</a></li>
-								<li><a data-filter=".pi-summer-trip" href="#">Summer Trip</a></li>
-								<li><a data-filter=".pi-sport-tour" href="#">Sport Tour</a></li>
-							</ul>
-						
-						</div><!-- .col-md-12 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-				<div id="portfolio-single-wrap">
-
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-12">
-					
-									<div class="portfolio-single-loader">
-										<div class="loader-shape la-ball-clip-rotate la-dark">
-												<div></div>
-										</div>
-									</div><!-- end portfolio-single-loader -->
-									<div class="clearfix"></div>
-									<div id="portfolio-single-content"></div>
-					
-							</div><!-- .col-md-12 end -->
-						</div><!-- .row end -->
-					</div><!-- .container-fluid end -->
-
-				</div><!-- end portfolio-single-wrap -->
-
-				<div class="portfolio-items-wrap">
-
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-12">
-					
-								<div class="portfolio-items">
-									<div class="portfolio-item pi-world-tour">
-										<div class="preview img-bg">
-											<img src="images/files/portfolio/img-1.jpg" alt="">
-										</div><!-- .preview end -->
-										<a class="overlay" href="#">
-											<i class="fa fa-file-text"></i>
-											<div class="overlay-inner">
-												<h5>Safari Tour</h5>
-												<h5 class="sub-title">World Tour / South Africa</h5>														
-											</div><!-- .overlay-inner end -->
-										</a><!-- .overlay end -->
-										<div class="portfolio-single-link">
-																<a class="open-portfolio-single" href="portfolio-single-1.html"></a>
-														</div><!-- end portfolio-single-link -->
-									</div><!-- .portfolio-item -->
-									<div class="portfolio-item pi-sport-tour">
-										<div class="preview img-bg">
-											<img src="images/files/portfolio/img-2.jpg" alt="">
-										</div><!-- .preview end -->
-										<a class="overlay" href="#">
-											<i class="fa fa-file-text"></i>
-											<div class="overlay-inner">
-												<h5>Mountain Tour</h5>
-												<h5 class="sub-title">Sport Tour / Alps</h5>														
-											</div><!-- .overlay-inner end -->
-										</a><!-- .overlay end -->
-										<div class="portfolio-single-link">
-																<a class="open-portfolio-single" href="portfolio-single-2.html"></a>
-														</div><!-- end portfolio-single-link -->
-									</div><!-- .portfolio-item -->
-									<div class="portfolio-item pi-summer-tour">
-										<div class="preview img-bg">
-											<img src="images/files/portfolio/img-3.jpg" alt="">
-										</div><!-- .preview end -->
-										<a class="overlay" href="#">
-											<i class="fa fa-file-text"></i>
-											<div class="overlay-inner">
-												<h5>Open Bus Tour</h5>
-												<h5 class="sub-title">Summer Tour</h5>														
-											</div><!-- .overlay-inner end -->
-										</a><!-- .overlay end -->
-										<div class="portfolio-single-link">
-																<a class="open-portfolio-single" href="portfolio-single-3.html"></a>
-														</div><!-- end portfolio-single-link -->
-									</div><!-- .portfolio-item -->
-									<div class="portfolio-item pi-world-tour">
-										<div class="preview img-bg">
-											<img src="images/files/portfolio/img-4.jpg" alt="">
-										</div><!-- .preview end -->
-										<a class="overlay" href="#">
-											<i class="fa fa-file-text"></i>
-											<div class="overlay-inner">
-												<h5>Single Travel</h5>
-												<h5 class="sub-title">World Tour / England</h5>
-											</div><!-- .overlay-inner end -->
-										</a><!-- .overlay end -->
-										<div class="portfolio-single-link">
-																<a class="open-portfolio-single" href="portfolio-single-4.html"></a>
-														</div><!-- end portfolio-single-link -->
-									</div><!-- .portfolio-item -->
-									<div class="portfolio-item pi-summer-tour pi-summer-trip">
-										<div class="preview img-bg">
-											<img src="images/files/portfolio/img-5.jpg" alt="">
-										</div><!-- .preview end -->
-										<a class="overlay lightbox-gallery" href="images/files/portfolio/lightbox/img-5.jpg">
-											<i class="fa fa-picture-o"></i>
-											<div class="overlay-inner">
-												<h5>Honeymoon</h5>
-												<h5 class="sub-title">Summer Tour</h5>														
-											</div><!-- .overlay-inner end -->
-										</a><!-- .overlay end -->
-									</div><!-- .portfolio-item -->
-									<div class="portfolio-item pi-ocean-tour">
-										<div class="preview img-bg">
-											<img src="images/files/portfolio/img-6.jpg" alt="">
-										</div><!-- .preview end -->
-										<a class="overlay lightbox-gallery" href="images/files/portfolio/lightbox/img-6.jpg">
-											<i class="fa fa-picture-o"></i>
-											<div class="overlay-inner">
-												<h5>Honeymoon</h5>
-												<h5 class="sub-title">Ocean Tour / Bahamas</h5>														
-											</div><!-- .overlay-inner end -->
-										</a><!-- .overlay end -->
-									</div><!-- .portfolio-item -->
-									<div class="portfolio-item pi-sport-tour">
-										<div class="preview img-bg">
-											<img src="images/files/portfolio/img-7.jpg" alt="">
-										</div><!-- .preview end -->
-										<a class="overlay lightbox-gallery" href="images/files/portfolio/lightbox/img-7.jpg">
-											<i class="fa fa-picture-o"></i>
-											<div class="overlay-inner">
-												<h5>Football Tour</h5>
-												<h5 class="sub-title">Sport Tour / Uefa</h5>														
-											</div><!-- .overlay-inner end -->
-										</a><!-- .overlay end -->
-									</div><!-- .portfolio-item -->
-									<div class="portfolio-item pi-ocean-tour">
-										<div class="preview img-bg">
-											<img src="images/files/portfolio/img-8.jpg" alt="">
-										</div><!-- .preview end -->
-										<a class="overlay lightbox-gallery" href="images/files/portfolio/lightbox/img-8.jpg">
-											<i class="fa fa-picture-o"></i>
-											<div class="overlay-inner">
-												<h5>Diving Tour</h5>
-												<h5 class="sub-title">Ocean Tour / Bahamas</h5>														
-											</div><!-- .overlay-inner end -->
-										</a><!-- .overlay end -->
-									</div><!-- .portfolio-item -->
-								</div><!-- .portfolio-items end -->
-							</div><!-- .col-md-12 end -->
-							<div class="col-md-12">
-							
-								<a href="#" class="loadmore-pi btn large colorful hover-dark" data-text-loading="Now Loading" data-text-loading-finished="No More!">
-									<span>Load More</span>
-									<div class="loader la-ball-clip-rotate la-sm">
-											<div></div>
-									</div>
-								</a>
-							
-							</div><!-- .col-md-12 end -->
-						</div><!-- .row end -->
-					</div><!-- .container-fluid end -->		
-
-				</div><!-- .portfolio-items-wrap end -->
-
-			</div><!-- .section-content end -->
-
-		</div><!-- .flat-section end -->
-
-		<!-- === Best Events =========== -->
-		<div id="best-events" class="flat-section best-events" data-scroll-index="3">
-
-			<div class="section-title">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-
-							<h2>Our best events</h2>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-							</p>
-
-						</div><!-- .col-md-8 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-title end -->
-
-			<div class="section-content">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-							<div class="event-box">
-								<div class="content">
-									<i class="fa fa-globe"></i>
-									<h4>World Tours</h4>
-								</div><!-- .content end -->
-								<div class="content-overlay">
-									<h5>World Tour</h5>
-									<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
-									<i class="fa fa-globe"></i>
-								</div><!-- .content-overlay end -->
-							</div><!-- .event-box end -->
-
-						</div><!-- .col-md-3 end -->
-						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-							<div class="event-box">
-								<div class="content">
-									<i class="fa fa-plane"></i>
-									<h4>Airline Tickets</h4>
-								</div><!-- .content end -->
-								<div class="content-overlay">
-									<h5>Airline Tickets</h5>
-									<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
-									<i class="fa fa-plane"></i>
-								</div><!-- .content-overlay end -->
-							</div><!-- .event-box end -->
-
-						</div><!-- .col-md-3 end -->
-						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-							<div class="event-box">
-								<div class="content">
-									<i class="fa fa-university"></i>
-									<h4>Hotel Reservation</h4>
-								</div><!-- .content end -->
-								<div class="content-overlay">
-									<h5>Hotel Reservation</h5>
-									<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
-									<i class="fa fa-university"></i>
-								</div><!-- .content-overlay end -->
-							</div><!-- .event-box end -->
-
-						</div><!-- .col-md-3 end -->
-						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-							<div class="event-box">
-								<div class="content">
-									<i class="fa fa-safari"></i>
-									<h4>Adventure Tours</h4>
-								</div><!-- .content end -->
-								<div class="content-overlay">
-									<h5>Adventure Tours</h5>
-									<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
-									<i class="fa fa-safari"></i>
-								</div><!-- .content-overlay end -->
-							</div><!-- .event-box end -->
-
-						</div><!-- .col-md-3 end -->
-						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-							<div class="event-box">
-								<div class="content">
-									<i class="fa fa-empire"></i>
-									<h4>Ocean Tour</h4>
-								</div><!-- .content end -->
-								<div class="content-overlay">
-									<h5>Ocean Tour</h5>
-									<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
-									<i class="fa fa-empire"></i>
-								</div><!-- .content-overlay end -->
-							</div><!-- .event-box end -->
-
-						</div><!-- .col-md-3 end -->
-						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-							<div class="event-box">
-								<div class="content">
-									<i class="fa fa-dribbble"></i>
-									<h4>Sport Tour</h4>
-								</div><!-- .content end -->
-								<div class="content-overlay">
-									<h5>Sport Tour</h5>
-									<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
-									<i class="fa fa-dribbble"></i>
-								</div><!-- .content-overlay end -->
-							</div><!-- .event-box end -->
-
-						</div><!-- .col-md-3 end -->
-						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-							<div class="event-box">
-								<div class="content">
-									<i class="fa fa-heartbeat"></i>
-									<h4>Medical Tours</h4>
-								</div><!-- .content end -->
-								<div class="content-overlay">
-									<h5>Medical Tours</h5>
-									<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
-									<i class="fa fa-heartbeat"></i>
-								</div><!-- .content-overlay end -->
-							</div><!-- .event-box end -->
-
-						</div><!-- .col-md-3 end -->
-						<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-
-							<div class="event-box">
-								<div class="content">
-									<i class="fa fa-angellist"></i>
-									<h4>Summer Tours</h4>
-								</div><!-- .content end -->
-								<div class="content-overlay">
-									<h5>Summer Tours</h5>
-									<p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
-									<i class="fa fa-angellist"></i>
-								</div><!-- .content-overlay end -->
-							</div><!-- .event-box end -->
-
-						</div><!-- .col-md-3 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-content end -->
-
-		</div><!-- .flat-section end -->
-
-		<!-- === CTA Title 2 =========== -->
-		<div class="parallax-section cta-title title-2" data-scroll-index="3" data-parallax-bg-img="img-33.jpg" data-stellar-background-ratio="0.2">
-
-			<div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
-			<div class="section-inner">
-
-				<div class="container">
-					<div class="row">
-						<div class="section-content">
-
-							<div class="col-md-8 col-md-offset-2">
-
-								<h1 class="title-big">
-									<span>Great Experiences</span>
-									<br>
-									<span class="colored">For Traveling and Tourism</span>
-								</h1>
-								<a class="video-btn lightbox-iframe" href="https://vimeo.com/45830194">
-									click the player to
-									<i class="fa fa-play"></i>
-									Watch The Overview
-								</a><!-- .video-btn end -->
-
-							</div><!-- .col-md-8 end -->
-
-						</div><!-- .section-content end -->
-
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-inner end -->
-
-		</div><!-- .parallax-section end -->
-
-		<!-- === Tour Guides =========== -->
-		<div id="tour-guide" class="flat-section tour-guide" data-scroll-index="4">
-
-			<div class="section-title">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-
-							<h2>Tour Guides</h2>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-							</p>
-
-						</div><!-- .col-md-8 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-title end -->
-
-			<div class="section-content">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-						
-							<div class="tour-guide-slider">
-								<ul class="owl-carousel">
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/tour-guide/img-1.jpg" alt=""></a>
-													<div class="overlay">
-														<ul class="social-icons">
-															<li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
-															<li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-														</ul><!-- .social-icons end -->
-													</div><!-- .overlay end -->
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													 <h5>Elias Hossain<span class="sub-title">Ocean guide</span></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/tour-guide/img-2.jpg" alt=""></a>
-													<div class="overlay">
-														<ul class="social-icons">
-															<li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
-															<li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-														</ul><!-- .social-icons end -->
-													</div><!-- .overlay end -->
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													 <h5>Ahmed Hamdy<span class="sub-title">Ocean guide</span></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/tour-guide/img-3.jpg" alt=""></a>
-													<div class="overlay">
-														<ul class="social-icons">
-															<li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
-															<li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-														</ul><!-- .social-icons end -->
-													</div><!-- .overlay end -->
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													 <h5>Eslam Samir<span class="sub-title">Ocean guide</span></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/tour-guide/img-4.jpg" alt=""></a>
-													<div class="overlay">
-														<ul class="social-icons">
-															<li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
-															<li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-														</ul><!-- .social-icons end -->
-													</div><!-- .overlay end -->
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													 <h5>Morad Hamdy<span class="sub-title">Sport guide</span></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="box-preview">
-												<div class="box-img img-bg">
-													<a href="#"><img src="images/files/sliders/tour-guide/img-5.jpg" alt=""></a>
-													<div class="overlay">
-														<ul class="social-icons">
-															<li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-															<li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-															<li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
-															<li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-														</ul><!-- .social-icons end -->
-													</div><!-- .overlay end -->
-												</div><!-- .box-img end -->
-												<div class="box-content">
-													 <h5>Lana Hassain<span class="sub-title">Photography</span></h5>
-													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
-												</div><!-- .box-content end -->
-											</div><!-- .box-preview end -->
-										</div><!-- .slide end -->
-									</li>
-								</ul>
-							</div><!-- .tour-guide-slider end -->
-						
-						</div><!-- .col-md-12 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-content end -->
-
-		</div><!-- .flat-section end -->
-
-
-		<!-- === Happy Clients =========== -->
-		<div id="happy-clients" class="flat-section happy-clients" data-scroll-index="5">
-
-			<div class="section-title">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-
-							<h2>Happy Clients</h2>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-							</p>
-
-						</div><!-- .col-md-8 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-title end -->
-
-			<div class="section-content">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-						
-							<div class="testmonials-slider">
-								<ul class="owl-carousel">
-									<li>
-										<div class="slide">
-											<div class="testmonial-single">
-												<div class="ts-img">
-													<img src="images/files/sliders/testmonials/img-1.jpg" alt="">
-													<i class="fa fa-quote-left"></i>
-												</div><!-- .ts-img end -->
-												<div class="ts-content">
-													<span class="quote-sign-start">“</span>
-													Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-													<span class="quote-sign-end">”</span>
-												</div><!-- .ts-content end -->
-												<div class="ts-person">
-													<i class="fa fa-user"></i>
-													Director of <a href="#">Traveltour.com</a>
-												</div><!-- .ts-person end -->
-											</div><!-- .testmonial-single -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="testmonial-single">
-												<div class="ts-img">
-													<img src="images/files/sliders/testmonials/img-2.jpg" alt="">
-													<i class="fa fa-quote-left"></i>
-												</div><!-- .ts-img end -->
-												<div class="ts-content">
-													<span class="quote-sign-start">“</span>
-													Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-													<span class="quote-sign-end">”</span>
-												</div><!-- .ts-content end -->
-												<div class="ts-person">
-													<i class="fa fa-user"></i>
-													Director of <a href="#">Traveltour.com</a>
-												</div><!-- .ts-person end -->
-											</div><!-- .testmonial-single -->
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="testmonial-single">
-												<div class="ts-img">
-													<img src="images/files/sliders/testmonials/img-3.jpg" alt="">
-													<i class="fa fa-quote-left"></i>
-												</div><!-- .ts-img end -->
-												<div class="ts-content">
-													<span class="quote-sign-start">“</span>
-													Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-													<span class="quote-sign-end">”</span>
-												</div><!-- .ts-content end -->
-												<div class="ts-person">
-													<i class="fa fa-user"></i>
-													Director of <a href="#">Traveltour.com</a>
-												</div><!-- .ts-person end -->
-											</div><!-- .testmonial-single -->
-										</div><!-- .slide end -->
-									</li>
-								</ul>
-							</div><!-- .testmonials-slider end -->
-
-							<div class="clients-slider">
-								<ul class="owl-carousel">
-									<li>
-										<div class="slide">
-											<div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
-										</div><!-- .slide end -->
-									</li>
-									<li>
-										<div class="slide">
-											<div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
-										</div><!-- .slide end -->
-									</li>
-								</ul>
-							</div><!-- .clients-slider end -->
-						</div><!-- .col-md-12 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-content end -->
-
-		</div><!-- .flat-section end -->
-
-		<!-- === Get Connected =========== -->
-		<div id="get-connected" class="flat-section get-connected" data-scroll-index="6">
-
-			<div class="section-title">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-
-							<h2>Get Connected</h2>
-							<p>
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-							</p>
-
-						</div><!-- .col-md-8 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-title end -->
-
-			<div class="section-content">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-
-							<div class="connect-box">
-								<h5>get in touch</h5>
-								<p>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been standard. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-								</p>
-								<ul class="social-icons">
-									<li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
-									<li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-								</ul><!-- .social-icons end -->
-							</div><!-- .connect-box end -->
-							<div class="connect-box">
-								<div class="contact-info-box">
-									<h5>Our Address</h5>
-									<ul class="contact-info">
-										<li><i class="fa fa-map-marker"></i>1234 Address name. City Name</li>
-										<li><i class="fa fa-phone"></i>(123) 456-7890</li>
-										<li><i class="fa fa-envelope"></i>mail@example.com</li>
-									</ul><!-- .contact-info end -->											
-								</div><!-- .contact-info-box end -->
-								<div class="contact-info-box">
-									<h5>Business Hours</h5>
-									<ul class="contact-info">
-										<li><i class="fa fa-clock-o"></i><span>Mon. - Fri.</span>8am to 5pm</li>
-										<li><i class="fa fa-clock-o"></i><span>Sat.</span>8am to 11am</li>
-										<li><i class="fa fa-clock-o"></i><span>Sun.</span>Closed</li>
-									</ul><!-- .contact-info end -->											
-								</div><!-- .contact-info-box end -->
-							</div><!-- .connect-box end -->
-						</div><!-- .col-md-6 end -->
-						<div class="col-md-6">
-
-							<div class="connect-box">
-								<h5>Drop Your Message</h5>
-								<div class="cf-notifications">
-									<div class="cf-notifications-cont"></div>
-								</div><!-- end Contact Form Submit Message -->
-								<form id="contact-form">
-									<div class="form-group">
-										<input type="text" name="cfName" id="cfName" class="form-control" placeholder="Your Name">
-									</div><!-- .form-group end -->
-									<div class="form-group">
-										<input type="text" name="cfEmail" id="cfEmail" class="form-control" placeholder="Your Email">
-									</div><!-- .form-group end -->
-									<div class="form-group">
-										<textarea  name="cfMessage" id="cfMessage" class="form-control" placeholder="Your Message"></textarea>
-									</div><!-- .form-group end -->
-									<div class="form-group">
-										<input type="submit" class="form-control" value="Send">
-									</div><!-- .form-group end -->
-								</form><!-- #contact-form end -->
-							</div><!-- .connect-box end -->
-						</div><!-- .col-md-6 end -->
-					</div><!-- .row end -->
-				</div><!-- .container end -->
-
-			</div><!-- .section-content end -->
-
-		</div><!-- .flat-section end -->
-
-		<!-- === Google Map =========== -->
-		<div id="map"></div>
-
-	</div><!-- #content-wrap -->
-
-</section><!-- #content end -->
-
-
-<!-- Blog Section -->
-<section class="news-section" id="blog">
-    <div class="auto-container">
-        <div class="sec-title centered">
-            <h2>Latest news &amp; articles<span class="dot">.</span></h2>
+    <!-- ============================
+         Banner Section
+    ============================= -->
+    <section id="banner">
+        <div id="home" class="banner-parallax" data-scroll-index="0">
+            <div class="banner-slider">
+                <ul class="owl-carousel slider-img-bg">
+                    <!-- Slide 1 -->
+                    <li>
+                        <div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div>
+                        <div class="overlay-pattern" data-bg-color="#000" data-bg-color-opacity="0"></div>
+                        <div class="slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/hero/bg-1.avif" />
+                            <div class="slide-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-8 col-md-offset-2">
+                                            <div class="banner-center-box text-center">
+                                                <h1>Consultoria em<br><span class="colored">segurança portuarias</span></h1>
+                                                <div class="description">
+                                                    Protegendo seu ambiente portuário com tecnologia de ponta e segurança incomparável
+                                                </div>
+                                                <a class="btn colorful medium hover-dark" href="#">Acessar Plataforma</a>
+                                                <a class="btn white medium hover-dark" href="#">Conheça nossas soluções</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Slide 2 -->
+                    <li>
+                        <div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div>
+                        <div class="overlay-pattern" data-bg-color="#000" data-bg-color-opacity="0"></div>
+                        <div class="slide">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/alumar/2.jpg" />
+                            <div class="slide-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-8 col-md-offset-2">
+                                            <div class="banner-center-box text-center">
+                                                <h1>Consultoria em<br><span class="colored">segurança portuarias</span></h1>
+                                                <div class="description">
+                                                    Protegendo seu ambiente portuário com tecnologia de ponta e segurança incomparável
+                                                </div>
+                                                <a class="btn colorful medium hover-dark" href="#">Acessar Plataforma</a>
+                                                <a class="btn white medium hover-dark" href="#">Conheça nossas soluções</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- Additional Slides -->
+                    <!-- Add more slides here if needed -->
+                </ul>
+            </div>
         </div>
-        <div class="clearfix row">
-            <!-- News Block 1 -->
-            <div class="news-block animated fadeInUp col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <a href="/blog-single">
-                            <img src="/_next/static/media/news-1.41921fb7.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="lower-box">
-                        <div class="post-meta">
-                            <ul class="clearfix">
-                                <li><span class="far fa-clock"></span> 20 Mar</li>
-                                <li><span class="far fa-user-circle"></span> Admin</li>
-                                <li><span class="far fa-comments"></span> 2 Comments</li>
-                            </ul>
-                        </div>
-                        <h5><a href="/blog-single">Basic rules of running web agency business</a></h5>
-                        <div class="text">Lorem ipsum is simply free text used by copytyping refreshing.</div>
-                        <div class="link-box">
-                            <a class="theme-btn" href="/blog-single">
-                                <span class="flaticon-next-1"></span>
-                            </a>
+    </section>
+    <!-- End Banner Section -->
+
+
+    <!-- Content
+    ============================================= -->
+    <section id="content">
+        <div id="content-wrap">
+                   <!-- ============================
+                 Facts Section
+            ============================= -->
+            <div class="facts-section jarallax">
+                <div class="auto-container">
+                    <div class="inner-container">
+                        <div class="fact-counter">
+                            <div class="clearfix row">
+                                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <div class="count-outer count-box">
+                                                <span class="count-text"><span>8705</span></span>
+                                            </div>
+                                            <div class="counter-title">Auditoria realizadas</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <div class="count-outer count-box">
+                                                <span class="count-text"><span>480</span></span>
+                                            </div>
+                                            <div class="counter-title">Clientes Satisfeitos</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <div class="count-outer count-box">
+                                                <span class="count-text"><span>626</span></span>
+                                            </div>
+                                            <div class="counter-title">Treinamentos realizados</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column counter-column col-lg-3 col-md-6 col-sm-12">
+                                    <div class="inner">
+                                        <div class="content">
+                                            <div class="count-outer count-box">
+                                                <span class="count-text"><span>9704</span></span>
+                                            </div>
+                                            <div class="counter-title">Alunos formados</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div id="jarallax-container-1">
+                    <!-- <img alt="" src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/alumar/1.jpg" class="jarallax-img"> -->
+                </div>
             </div>
-            <!-- News Block 2 -->
-            <div class="news-block animated fadeInUp col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <a href="/blog-single">
-                            <img src="/_next/static/media/news-2.a99142bd.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="lower-box">
-                        <div class="post-meta">
-                            <ul class="clearfix">
-                                <li><span class="far fa-clock"></span> 20 Mar</li>
-                                <li><span class="far fa-user-circle"></span> Admin</li>
-                                <li><span class="far fa-comments"></span> 2 Comments</li>
-                            </ul>
+
+            <!-- === Trusted Section =========== -->
+            <section class="trusted-section">
+                <div class="auto-container">
+                    <div class="outer-container">
+                        <div class="clearfix row">
+                            <div class="left-col col-xl-5 col-lg-6 col-md-12 col-sm-12">
+                                <div class="inner">
+                                    <div class="col-header">
+                                        <div class="header-inner">
+                                            <h2>Quem somos?</h2>
+                                        </div>
+                                    </div>
+                                    <div class="features">
+                                   
+                                        <div class="feature-text">
+                                            <p class=" text-justify">
+                                                A Versys é uma empresa especializada em consultoria e auditoria de segurança portuária, com foco na implementação e manutenção do Código Internacional para Proteção de Navios e Instalações Portuárias (ISPS CODE). Nossa missão é garantir a segurança e proteção das operações portuárias, contribuindo para a integridade das instalações e a segurança das pessoas envolvidas.
+                                            </p>
+                                        </div>
+                                  
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                            <div class="right-col col-xl-7 col-lg-6 col-md-12 col-sm-12">
+                                <div class="flat-section">
+                                    <div class="inner">
+                                        <div class="feature">
+                                            <div class="text-center">
+                                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/ministerio-da-justica.avif" width="134" alt="ministerio-da-justica" />
+                                            </div>
+                                            <h6 class="text-center"> MINISTÉRIO DA JUSTIÇA</h6>
+                                            <p class="text-center">
+                                                Reconhecida e credenciada pelo Ministério da Justiça e Segurança Pública, conforme a Deliberação Nº 1.025, de 22 de junho de 2023 por meio do Processo SEI/MJSP nº 08020.000351/2023-99.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <h5><a href="/blog-single">Delivering the best digital marketing</a></h5>
-                        <div class="text">Lorem ipsum is simply free text used by copytyping refreshing.</div>
-                        <div class="link-box">
-                            <a class="theme-btn" href="/blog-single">
-                                <span class="flaticon-next-1"></span>
-                            </a>
+                   
+                      
+                    </div>
+                   
+                </div>
+            </section>
+            <section class="pilars-section">
+                <div class="auto-container">
+                    <h2>Nossos  pilares</h2>
+                    <div class="default-tabs tabs-box inner-container">
+                        <ul class="tab-btns tab-buttons clearfix">
+                            <li class="tab-btn"><span>Foco Principal</span></li>
+                            <li class="tab-btn"><span>Objetivo</span></li>
+                            <li class="tab-btn"><span>Assertividade</span></li>
+                        </ul>
+                        <div class="tabs-content">
+                            <div class="tab animated" id="tab-1">
+                                <div class="content">
+                                    <div class="text">
+                                        Com foco de atuação principal no segmento portuário, desenvolvemos soluções eficientes e objetivas para a gestão de segurança de portos públicos e terminais que precisam se atualizar ou certificar em conformidade com as diretrizes do Código Internacional para Proteção de Navios e Instalações Portuárias - ISPS CODE, seguindo as resoluções da CONPORTOS, ANTAQ e Receita Federal do Brasil.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab animated" id="tab-2">
+                                <div class="content">
+                                    <div class="text">
+                                        Nosso objetivo é oferecer todo o suporte necessário para que as instalações portuárias, portos públicos e privados sejam reconhecidos e certificados pela CONPORTOS - Comissão Nacional de Segurança Pública nos Portos, Terminais e Vias Navegáveis e pela International Maritime Organization (IMO), agência especializada da ONU, a nível internacional.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab animated fadeInUp" id="tab-3">
+                                <div class="content">
+                                    <div class="text">
+                                        Com nossa equipe altamente qualificada e vasta experiência em segurança portuária, nos dedicamos em fornecer soluções sob medida para atender às necessidades específicas de nossos clientes, sem prejudicar sua operação diária. Estamos comprometidos em ajudar nossos clientes a operar com segurança e eficiência em um ambiente portuário em constante mudança.
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- News Block 3 -->
-            <div class="news-block animated fadeInUp col-lg-4 col-md-6 col-sm-12">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <a href="/blog-single">
-                            <img src="/_next/static/media/news-3.e4f5fca8.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="lower-box">
-                        <div class="post-meta">
-                            <ul class="clearfix">
-                                <li><span class="far fa-clock"></span> 20 Mar</li>
-                                <li><span class="far fa-user-circle"></span> Admin</li>
-                                <li><span class="far fa-comments"></span> 2 Comments</li>
-                            </ul>
+            </section>
+            <!-- End Trusted Section -->
+            <!-- ============================
+                 Our Services Section
+            ============================= -->
+            <section id="our-services" class="flat-section our-services" data-scroll-index="1">
+                <div class="section-title">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h2>Nossos Serviços</h2>
+                                <p>
+                                    Nossa empresa oferece uma série de serviços, incluindo análise de risco de
+                                    segurança, desenvolvimento de planos de segurança portuária, revisão e
+                                    auditoria de planos existentes, treinamento em segurança portuária e
+                                    consultoria em certificação do Código ISPS.
+                                </p>
+                            </div>
                         </div>
-                        <h5><a href="/blog-single">Introducing the latest Linoor features</a></h5>
-                        <div class="text">Lorem ipsum is simply free text used by copytyping refreshing.</div>
-                        <div class="link-box">
-                            <a class="theme-btn" href="/blog-single">
-                                <span class="flaticon-next-1"></span>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="os-tabs">
+                                    <li class="active"><i class="fas fa-file-alt"></i> AUDITORIA DE CONFORMIDADE ISPS CODE</li>
+                                    <li><i class="fas fa-shield-alt"></i> Estudo de análise de riscos | ARESP</li>
+                                    <li><i class="fas fa-map"></i> Plano de segurança portuária</li>
+                                    <li><i class="fas fa-map-marker-alt"></i> Auditoria interna de conformidade</li>
+                                </ul>
+                                <div class="row">
+                                    <ul class="os-tabs-content">
+                                        <li class="active">
+                                            <div class="col-md-7">
+                                                <h4>AUDITORIA DE CONFORMIDADE ISPS CODE</h4>
+                                                <p>
+                                                    Nossos projetos contam com a utilização de drones, que nos permitem realizar mapeamentos aéreos precisos e abrangentes. Essa tecnologia de ponta nos proporciona insights detalhados e perspectivas únicas, fortalecendo nossa capacidade de criar estratégias de segurança excepcionais para cada Terminal.
+                                                </p>
+                                                <ul class="list check-square">
+                                                    <li>Estudo de análise de riscos | ARESP</li>
+                                                    <li>Auditoria interna de conformidade</li>
+                                                    <li>Plano de segurança portuária</li>
+                                                    <li>Mapeamento aéreo</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-5">
+                                                <div class="img-preview">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bg/alumar/1.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Additional tabs can be added here -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Our Services Section -->
+
+     
+            <!-- === Our Adventures =========== -->
+            <div id="our-adventures" class="flat-section our-adventures" data-scroll-index="2">
+
+                <div class="section-title">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+
+                                <h2>Galeria</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+
+                            </div><!-- .col-md-8 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-title end -->
+
+                <div class="portfolio-top"></div>
+                <div class="section-content">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                
+                                <ul class="portfolio-categories">
+                                    <li><a data-filter="*" class="active" href="#">Todas</a></li>
+                                    <li><a data-filter=".pi-summer-trip" href="#">Mapeamento Areo</a></li>
+                                    <li><a data-filter=".pi-world-tour" href="#">Treinamentos</a></li>
+                                    <li><a data-filter=".pi-ocean-tour" href="#">Auditoria</a></li>
+                                    <li><a data-filter=".pi-sport-tour" href="#">Eventos</a></li>
+                                </ul>
+                            
+                            </div><!-- .col-md-12 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                    <div id="portfolio-single-wrap">
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                        
+                                        <div class="portfolio-single-loader">
+                                            <div class="loader-shape la-ball-clip-rotate la-dark">
+                                                    <div></div>
+                                            </div>
+                                        </div><!-- end portfolio-single-loader -->
+                                        <div class="clearfix"></div>
+                                        <div id="portfolio-single-content"></div>
+                        
+                                </div><!-- .col-md-12 end -->
+                            </div><!-- .row end -->
+                        </div><!-- .container-fluid end -->
+
+                    </div><!-- end portfolio-single-wrap -->
+
+                    <div class="portfolio-items-wrap">
+
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                        
+                                    <div class="portfolio-items">
+                                        <div class="portfolio-item pi-world-tour">
+                                            <div class="preview img-bg">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/galeria/1.jpg" alt="">
+                                            </div><!-- .preview end -->
+                                            <a class="overlay" href="#">
+                                                <i class="fa fa-file-text"></i>
+                                                <div class="overlay-inner">
+                                                    <h5>Safari Tour</h5>
+                                                    <h5 class="sub-title">World Tour / South Africa</h5>														
+                                                </div><!-- .overlay-inner end -->
+                                            </a><!-- .overlay end -->
+                                            <div class="portfolio-single-link">
+                                                                    <a class="open-portfolio-single" href="portfolio-single-1.html"></a>
+                                                            </div><!-- end portfolio-single-link -->
+                                        </div><!-- .portfolio-item -->
+                                        <div class="portfolio-item pi-sport-tour">
+                                            <div class="preview img-bg">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/galeria/1.jpg" alt="">	
+                                            </div><!-- .preview end -->
+                                            <a class="overlay" href="#">
+                                                <i class="fa fa-file-text"></i>
+                                                <div class="overlay-inner">
+                                                    <h5>Mountain Tour</h5>
+                                                    <h5 class="sub-title">Sport Tour / Alps</h5>														
+                                                </div><!-- .overlay-inner end -->
+                                            </a><!-- .overlay end -->
+                                            <div class="portfolio-single-link">
+                                                                    <a class="open-portfolio-single" href="portfolio-single-2.html"></a>
+                                                            </div><!-- end portfolio-single-link -->
+                                        </div><!-- .portfolio-item -->
+                                        <div class="portfolio-item pi-summer-tour">
+                                            <div class="preview img-bg">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/galeria/1.jpg" alt="">
+                                    
+                                            </div><!-- .preview end -->
+                                            <a class="overlay" href="#">
+                                                <i class="fa fa-file-text"></i>
+                                                <div class="overlay-inner">
+                                                    <h5>Open Bus Tour</h5>
+                                                    <h5 class="sub-title">Summer Tour</h5>														
+                                                </div><!-- .overlay-inner end -->
+                                            </a><!-- .overlay end -->
+                                            <div class="portfolio-single-link">
+                                                                    <a class="open-portfolio-single" href="portfolio-single-3.html"></a>
+                                                            </div><!-- end portfolio-single-link -->
+                                        </div><!-- .portfolio-item -->
+                                        <div class="portfolio-item pi-world-tour">
+                                            <div class="preview img-bg">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/galeria/1.jpg" alt="">
+                                    
+                                            </div><!-- .preview end -->
+                                            <a class="overlay" href="#">
+                                                <i class="fa fa-file-text"></i>
+                                                <div class="overlay-inner">
+                                                    <h5>Single Travel</h5>
+                                                    <h5 class="sub-title">World Tour / England</h5>
+                                                </div><!-- .overlay-inner end -->
+                                            </a><!-- .overlay end -->
+                                            <div class="portfolio-single-link">
+                                                                    <a class="open-portfolio-single" href="portfolio-single-4.html"></a>
+                                                            </div><!-- end portfolio-single-link -->
+                                        </div><!-- .portfolio-item -->
+                                        <div class="portfolio-item pi-summer-tour pi-summer-trip">
+                                            <div class="preview img-bg">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/galeria/2.jpg" alt="">
+                                
+                                            </div><!-- .preview end -->
+                                            <a class="overlay lightbox-gallery" href="images/files/portfolio/lightbox/img-5.jpg">
+                                                <i class="fa fa-picture-o"></i>
+                                                <div class="overlay-inner">
+                                                    <h5>Honeymoon</h5>
+                                                    <h5 class="sub-title">Summer Tour</h5>														
+                                                </div><!-- .overlay-inner end -->
+                                            </a><!-- .overlay end -->
+                                        </div><!-- .portfolio-item -->
+                                        <div class="portfolio-item pi-ocean-tour">
+                                            <div class="preview img-bg">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/galeria/3.jpg" alt="">
+                                            
+                                            </div><!-- .preview end -->
+                                            <a class="overlay lightbox-gallery" href="images/files/portfolio/lightbox/img-6.jpg">
+                                                <i class="fa fa-picture-o"></i>
+                                                <div class="overlay-inner">
+                                                    <h5>Honeymoon</h5>
+                                                    <h5 class="sub-title">Ocean Tour / Bahamas</h5>														
+                                                </div><!-- .overlay-inner end -->
+                                            </a><!-- .overlay end -->
+                                        </div><!-- .portfolio-item -->
+                                        <div class="portfolio-item pi-sport-tour">
+                                            <div class="preview img-bg">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/galeria/4.jpg" alt="">
+                                
+                                            </div><!-- .preview end -->
+                                            <a class="overlay lightbox-gallery" href="images/files/portfolio/lightbox/img-7.jpg">
+                                                <i class="fa fa-picture-o"></i>
+                                                <div class="overlay-inner">
+                                                    <h5>Football Tour</h5>
+                                                    <h5 class="sub-title">Sport Tour / Uefa</h5>														
+                                                </div><!-- .overlay-inner end -->
+                                            </a><!-- .overlay end -->
+                                        </div><!-- .portfolio-item -->
+                                        <div class="portfolio-item pi-ocean-tour">
+                                            <div class="preview img-bg">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/galeria/5.jpg" alt="">
+                            
+                                            </div><!-- .preview end -->
+                                            <a class="overlay lightbox-gallery" href="images/files/portfolio/lightbox/img-8.jpg">
+                                                <i class="fa fa-picture-o"></i>
+                                                <div class="overlay-inner">
+                                                    <h5>Diving Tour</h5>
+                                                    <h5 class="sub-title">Ocean Tour / Bahamas</h5>														
+                                                </div><!-- .overlay-inner end -->
+                                            </a><!-- .overlay end -->
+                                        </div><!-- .portfolio-item -->
+                                    </div><!-- .portfolio-items end -->
+                                </div><!-- .col-md-12 end -->
+                                <div class="col-md-12">
+                                
+                                    <a href="#" class="loadmore-pi btn large colorful hover-dark" data-text-loading="Now Loading" data-text-loading-finished="No More!">
+                                        <span>Load More</span>
+                                        <div class="loader la-ball-clip-rotate la-sm">
+                                                <div></div>
+                                        </div>
+                                    </a>
+                                
+                                </div><!-- .col-md-12 end -->
+                            </div><!-- .row end -->
+                        </div><!-- .container-fluid end -->		
+
+                    </div><!-- .portfolio-items-wrap end -->
+
+                </div><!-- .section-content end -->
+
+            </div><!-- .flat-section end -->
+
+            <!-- === Best Events =========== -->
+            <div id="best-events" class="flat-section best-events" data-scroll-index="3">
+
+                <div class="section-title">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+
+                                <h2>Our best events</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+
+                            </div><!-- .col-md-8 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-title end -->
+
+                <div class="section-content">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                                <div class="event-box">
+                                    <div class="content">
+                                        <i class="fa fa-globe"></i>
+                                        <h4>World Tours</h4>
+                                    </div><!-- .content end -->
+                                    <div class="content-overlay">
+                                        <h5>World Tour</h5>
+                                        <p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+                                        <i class="fa fa-globe"></i>
+                                    </div><!-- .content-overlay end -->
+                                </div><!-- .event-box end -->
+
+                            </div><!-- .col-md-3 end -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                                <div class="event-box">
+                                    <div class="content">
+                                        <i class="fa fa-plane"></i>
+                                        <h4>Airline Tickets</h4>
+                                    </div><!-- .content end -->
+                                    <div class="content-overlay">
+                                        <h5>Airline Tickets</h5>
+                                        <p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+                                        <i class="fa fa-plane"></i>
+                                    </div><!-- .content-overlay end -->
+                                </div><!-- .event-box end -->
+
+                            </div><!-- .col-md-3 end -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                                <div class="event-box">
+                                    <div class="content">
+                                        <i class="fa fa-university"></i>
+                                        <h4>Hotel Reservation</h4>
+                                    </div><!-- .content end -->
+                                    <div class="content-overlay">
+                                        <h5>Hotel Reservation</h5>
+                                        <p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+                                        <i class="fa fa-university"></i>
+                                    </div><!-- .content-overlay end -->
+                                </div><!-- .event-box end -->
+
+                            </div><!-- .col-md-3 end -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                                <div class="event-box">
+                                    <div class="content">
+                                        <i class="fa fa-safari"></i>
+                                        <h4>Adventure Tours</h4>
+                                    </div><!-- .content end -->
+                                    <div class="content-overlay">
+                                        <h5>Adventure Tours</h5>
+                                        <p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+                                        <i class="fa fa-safari"></i>
+                                    </div><!-- .content-overlay end -->
+                                </div><!-- .event-box end -->
+
+                            </div><!-- .col-md-3 end -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                                <div class="event-box">
+                                    <div class="content">
+                                        <i class="fa fa-empire"></i>
+                                        <h4>Ocean Tour</h4>
+                                    </div><!-- .content end -->
+                                    <div class="content-overlay">
+                                        <h5>Ocean Tour</h5>
+                                        <p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+                                        <i class="fa fa-empire"></i>
+                                    </div><!-- .content-overlay end -->
+                                </div><!-- .event-box end -->
+
+                            </div><!-- .col-md-3 end -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                                <div class="event-box">
+                                    <div class="content">
+                                        <i class="fa fa-dribbble"></i>
+                                        <h4>Sport Tour</h4>
+                                    </div><!-- .content end -->
+                                    <div class="content-overlay">
+                                        <h5>Sport Tour</h5>
+                                        <p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+                                        <i class="fa fa-dribbble"></i>
+                                    </div><!-- .content-overlay end -->
+                                </div><!-- .event-box end -->
+
+                            </div><!-- .col-md-3 end -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                                <div class="event-box">
+                                    <div class="content">
+                                        <i class="fa fa-heartbeat"></i>
+                                        <h4>Medical Tours</h4>
+                                    </div><!-- .content end -->
+                                    <div class="content-overlay">
+                                        <h5>Medical Tours</h5>
+                                        <p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+                                        <i class="fa fa-heartbeat"></i>
+                                    </div><!-- .content-overlay end -->
+                                </div><!-- .event-box end -->
+
+                            </div><!-- .col-md-3 end -->
+                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+
+                                <div class="event-box">
+                                    <div class="content">
+                                        <i class="fa fa-angellist"></i>
+                                        <h4>Summer Tours</h4>
+                                    </div><!-- .content end -->
+                                    <div class="content-overlay">
+                                        <h5>Summer Tours</h5>
+                                        <p>Our program is make you enjoy & explore the life. we ‘ll be happy when see you and your family happy.</p>
+                                        <i class="fa fa-angellist"></i>
+                                    </div><!-- .content-overlay end -->
+                                </div><!-- .event-box end -->
+
+                            </div><!-- .col-md-3 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-content end -->
+
+            </div>
+            <!-- .flat-section end -->
+
+
+            <!-- === CTA Title 2 =========== -->
+            <div class="parallax-section cta-title title-2" data-scroll-index="3" data-parallax-bg-img="img-33.jpg" data-stellar-background-ratio="0.2">
+
+                <div class="overlay-colored" data-bg-color="#000" data-bg-color-opacity="0.50"></div><!-- .overlay-colored end -->
+                <div class="section-inner">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="section-content">
+
+                                <div class="col-md-8 col-md-offset-2">
+
+                                    <h1 class="title-big">
+                                        <span>Great Experiences</span>
+                                        <br>
+                                        <span class="colored">For Traveling and Tourism</span>
+                                    </h1>
+                                    <a class="video-btn lightbox-iframe" href="https://vimeo.com/45830194">
+                                        click the player to
+                                        <i class="fa fa-play"></i>
+                                        Watch The Overview
+                                    </a><!-- .video-btn end -->
+
+                                </div><!-- .col-md-8 end -->
+
+                            </div><!-- .section-content end -->
+
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-inner end -->
+
+            </div><!-- .parallax-section end -->
+
+            <!-- === Tour Guides =========== -->
+            <div id="tour-guide" class="flat-section tour-guide" data-scroll-index="4">
+
+                <div class="section-title">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+
+                                <h2>Tour Guides</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+
+                            </div><!-- .col-md-8 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-title end -->
+
+                <div class="section-content">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            
+                                <div class="tour-guide-slider">
+                                    <ul class="owl-carousel">
+                                        <li>
+                                            <div class="slide">
+                                                <div class="box-preview">
+                                                    <div class="box-img img-bg">
+                                                        <a href="#"><img src="images/files/sliders/tour-guide/img-1.jpg" alt=""></a>
+                                                        <div class="overlay">
+                                                            <ul class="social-icons">
+                                                                <li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
+                                                                <li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                            </ul><!-- .social-icons end -->
+                                                        </div><!-- .overlay end -->
+                                                    </div><!-- .box-img end -->
+                                                    <div class="box-content">
+                                                         <h5>Elias Hossain<span class="sub-title">Ocean guide</span></h5>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
+                                                    </div><!-- .box-content end -->
+                                                </div><!-- .box-preview end -->
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="box-preview">
+                                                    <div class="box-img img-bg">
+                                                        <a href="#"><img src="images/files/sliders/tour-guide/img-2.jpg" alt=""></a>
+                                                        <div class="overlay">
+                                                            <ul class="social-icons">
+                                                                <li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
+                                                                <li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                            </ul><!-- .social-icons end -->
+                                                        </div><!-- .overlay end -->
+                                                    </div><!-- .box-img end -->
+                                                    <div class="box-content">
+                                                         <h5>Ahmed Hamdy<span class="sub-title">Ocean guide</span></h5>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
+                                                    </div><!-- .box-content end -->
+                                                </div><!-- .box-preview end -->
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="box-preview">
+                                                    <div class="box-img img-bg">
+                                                        <a href="#"><img src="images/files/sliders/tour-guide/img-3.jpg" alt=""></a>
+                                                        <div class="overlay">
+                                                            <ul class="social-icons">
+                                                                <li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
+                                                                <li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                            </ul><!-- .social-icons end -->
+                                                        </div><!-- .overlay end -->
+                                                    </div><!-- .box-img end -->
+                                                    <div class="box-content">
+                                                         <h5>Eslam Samir<span class="sub-title">Ocean guide</span></h5>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
+                                                    </div><!-- .box-content end -->
+                                                </div><!-- .box-preview end -->
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="box-preview">
+                                                    <div class="box-img img-bg">
+                                                        <a href="#"><img src="images/files/sliders/tour-guide/img-4.jpg" alt=""></a>
+                                                        <div class="overlay">
+                                                            <ul class="social-icons">
+                                                                <li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
+                                                                <li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                            </ul><!-- .social-icons end -->
+                                                        </div><!-- .overlay end -->
+                                                    </div><!-- .box-img end -->
+                                                    <div class="box-content">
+                                                         <h5>Morad Hamdy<span class="sub-title">Sport guide</span></h5>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
+                                                    </div><!-- .box-content end -->
+                                                </div><!-- .box-preview end -->
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="box-preview">
+                                                    <div class="box-img img-bg">
+                                                        <a href="#"><img src="images/files/sliders/tour-guide/img-5.jpg" alt=""></a>
+                                                        <div class="overlay">
+                                                            <ul class="social-icons">
+                                                                <li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                                                <li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                                                <li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
+                                                                <li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                                            </ul><!-- .social-icons end -->
+                                                        </div><!-- .overlay end -->
+                                                    </div><!-- .box-img end -->
+                                                    <div class="box-content">
+                                                         <h5>Lana Hassain<span class="sub-title">Photography</span></h5>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been indust.</p>
+                                                    </div><!-- .box-content end -->
+                                                </div><!-- .box-preview end -->
+                                            </div><!-- .slide end -->
+                                        </li>
+                                    </ul>
+                                </div><!-- .tour-guide-slider end -->
+                            
+                            </div><!-- .col-md-12 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-content end -->
+
+            </div><!-- .flat-section end -->
+
+
+            <!-- === Happy Clients =========== -->
+            <div id="happy-clients" class="flat-section happy-clients" data-scroll-index="5">
+
+                <div class="section-title">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+
+                                <h2>Happy Clients</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+
+                            </div><!-- .col-md-8 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-title end -->
+
+                <div class="section-content">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            
+                                <div class="testmonials-slider">
+                                    <ul class="owl-carousel">
+                                        <li>
+                                            <div class="slide">
+                                                <div class="testmonial-single">
+                                                    <div class="ts-img">
+                                                        <img src="images/files/sliders/testmonials/img-1.jpg" alt="">
+                                                        <i class="fa fa-quote-left"></i>
+                                                    </div><!-- .ts-img end -->
+                                                    <div class="ts-content">
+                                                        <span class="quote-sign-start">“</span>
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                        <span class="quote-sign-end">”</span>
+                                                    </div><!-- .ts-content end -->
+                                                    <div class="ts-person">
+                                                        <i class="fa fa-user"></i>
+                                                        Director of <a href="#">Traveltour.com</a>
+                                                    </div><!-- .ts-person end -->
+                                                </div><!-- .testmonial-single -->
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="testmonial-single">
+                                                    <div class="ts-img">
+                                                        <img src="images/files/sliders/testmonials/img-2.jpg" alt="">
+                                                        <i class="fa fa-quote-left"></i>
+                                                    </div><!-- .ts-img end -->
+                                                    <div class="ts-content">
+                                                        <span class="quote-sign-start">“</span>
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                        <span class="quote-sign-end">”</span>
+                                                    </div><!-- .ts-content end -->
+                                                    <div class="ts-person">
+                                                        <i class="fa fa-user"></i>
+                                                        Director of <a href="#">Traveltour.com</a>
+                                                    </div><!-- .ts-person end -->
+                                                </div><!-- .testmonial-single -->
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="testmonial-single">
+                                                    <div class="ts-img">
+                                                        <img src="images/files/sliders/testmonials/img-3.jpg" alt="">
+                                                        <i class="fa fa-quote-left"></i>
+                                                    </div><!-- .ts-img end -->
+                                                    <div class="ts-content">
+                                                        <span class="quote-sign-start">“</span>
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                                        <span class="quote-sign-end">”</span>
+                                                    </div><!-- .ts-content end -->
+                                                    <div class="ts-person">
+                                                        <i class="fa fa-user"></i>
+                                                        Director of <a href="#">Traveltour.com</a>
+                                                    </div><!-- .ts-person end -->
+                                                </div><!-- .testmonial-single -->
+                                            </div><!-- .slide end -->
+                                        </li>
+                                    </ul>
+                                </div><!-- .testmonials-slider end -->
+
+                                <div class="clients-slider">
+                                    <ul class="owl-carousel">
+                                        <li>
+                                            <div class="slide">
+                                                <div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
+                                            </div><!-- .slide end -->
+                                        </li>
+                                        <li>
+                                            <div class="slide">
+                                                <div class="client-single"><img src="http://placehold.it/200x60" alt=""></div>
+                                            </div><!-- .slide end -->
+                                        </li>
+                                    </ul>
+                                </div><!-- .clients-slider end -->
+                            </div><!-- .col-md-12 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-content end -->
+
+            </div><!-- .flat-section end -->
+
+            <!-- === Get Connected =========== -->
+            <div id="get-connected" class="flat-section get-connected" data-scroll-index="6">
+
+                <div class="section-title">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+
+                                <h2>Get Connected</h2>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                </p>
+
+                            </div><!-- .col-md-8 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-title end -->
+
+                <div class="section-content">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <div class="connect-box">
+                                    <h5>get in touch</h5>
+                                    <p>
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been standard. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                    </p>
+                                    <ul class="social-icons">
+                                        <li><a class="si-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a class="si-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a class="si-behance" href="#"><i class="fa fa-behance"></i></a></li>
+                                        <li><a class="si-dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    </ul><!-- .social-icons end -->
+                                </div><!-- .connect-box end -->
+                                <div class="connect-box">
+                                    <div class="contact-info-box">
+                                        <h5>Our Address</h5>
+                                        <ul class="contact-info">
+                                            <li><i class="fa fa-map-marker"></i>1234 Address name. City Name</li>
+                                            <li><i class="fa fa-phone"></i>(123) 456-7890</li>
+                                            <li><i class="fa fa-envelope"></i>mail@example.com</li>
+                                        </ul><!-- .contact-info end -->											
+                                    </div><!-- .contact-info-box end -->
+                                    <div class="contact-info-box">
+                                        <h5>Business Hours</h5>
+                                        <ul class="contact-info">
+                                            <li><i class="fa fa-clock-o"></i><span>Mon. - Fri.</span>8am to 5pm</li>
+                                            <li><i class="fa fa-clock-o"></i><span>Sat.</span>8am to 11am</li>
+                                            <li><i class="fa fa-clock-o"></i><span>Sun.</span>Closed</li>
+                                        </ul><!-- .contact-info end -->											
+                                    </div><!-- .contact-info-box end -->
+                                </div><!-- .connect-box end -->
+                            </div><!-- .col-md-6 end -->
+                            <div class="col-md-6">
+
+                                <div class="connect-box">
+                                    <h5>Drop Your Message</h5>
+                                    <div class="cf-notifications">
+                                        <div class="cf-notifications-cont"></div>
+                                    </div><!-- end Contact Form Submit Message -->
+                                    <form id="contact-form">
+                                        <div class="form-group">
+                                            <input type="text" name="cfName" id="cfName" class="form-control" placeholder="Your Name">
+                                        </div><!-- .form-group end -->
+                                        <div class="form-group">
+                                            <input type="text" name="cfEmail" id="cfEmail" class="form-control" placeholder="Your Email">
+                                        </div><!-- .form-group end -->
+                                        <div class="form-group">
+                                            <textarea  name="cfMessage" id="cfMessage" class="form-control" placeholder="Your Message"></textarea>
+                                        </div><!-- .form-group end -->
+                                        <div class="form-group">
+                                            <input type="submit" class="form-control" value="Send">
+                                        </div><!-- .form-group end -->
+                                    </form><!-- #contact-form end -->
+                                </div><!-- .connect-box end -->
+                            </div><!-- .col-md-6 end -->
+                        </div><!-- .row end -->
+                    </div><!-- .container end -->
+
+                </div><!-- .section-content end -->
+
+            </div><!-- .flat-section end -->
+
+            <!-- === Google Map =========== -->
+            <div id="map"></div>
+
+        </div><!-- #content-wrap -->
+
+    </section>
+    <!-- #content end -->
+
+    <!-- Blog Section -->
+    <section class="news-section" id="blog">
+        <div class="auto-container">
+            <div class="sec-title centered">
+                <h2>Latest news &amp; articles<span class="dot">.</span></h2>
+            </div>
+            <div class="clearfix row">
+                <!-- News Block 1 -->
+                <div class="news-block animated fadeInUp col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <a href="/blog-single">
+                                <img src="/_next/static/media/news-1.41921fb7.jpg" alt="">
                             </a>
+                        </div>
+                        <div class="lower-box">
+                            <div class="post-meta">
+                                <ul class="clearfix">
+                                    <li><span class="far fa-clock"></span> 20 Mar</li>
+                                    <li><span class="far fa-user-circle"></span> Admin</li>
+                                    <li><span class="far fa-comments"></span> 2 Comments</li>
+                                </ul>
+                            </div>
+                            <h5><a href="/blog-single">Basic rules of running web agency business</a></h5>
+                            <div class="text">Lorem ipsum is simply free text used by copytyping refreshing.</div>
+                            <div class="link-box">
+                                <a class="theme-btn" href="/blog-single">
+                                    <span class="flaticon-next-1"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- News Block 2 -->
+                <div class="news-block animated fadeInUp col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <a href="/blog-single">
+                                <img src="/_next/static/media/news-2.a99142bd.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="lower-box">
+                            <div class="post-meta">
+                                <ul class="clearfix">
+                                    <li><span class="far fa-clock"></span> 20 Mar</li>
+                                    <li><span class="far fa-user-circle"></span> Admin</li>
+                                    <li><span class="far fa-comments"></span> 2 Comments</li>
+                                </ul>
+                            </div>
+                            <h5><a href="/blog-single">Delivering the best digital marketing</a></h5>
+                            <div class="text">Lorem ipsum is simply free text used by copytyping refreshing.</div>
+                            <div class="link-box">
+                                <a class="theme-btn" href="/blog-single">
+                                    <span class="flaticon-next-1"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- News Block 3 -->
+                <div class="news-block animated fadeInUp col-lg-4 col-md-6 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <a href="/blog-single">
+                                <img src="/_next/static/media/news-3.e4f5fca8.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="lower-box">
+                            <div class="post-meta">
+                                <ul class="clearfix">
+                                    <li><span class="far fa-clock"></span> 20 Mar</li>
+                                    <li><span class="far fa-user-circle"></span> Admin</li>
+                                    <li><span class="far fa-comments"></span> 2 Comments</li>
+                                </ul>
+                            </div>
+                            <h5><a href="/blog-single">Introducing the latest Linoor features</a></h5>
+                            <div class="text">Lorem ipsum is simply free text used by copytyping refreshing.</div>
+                            <div class="link-box">
+                                <a class="theme-btn" href="/blog-single">
+                                    <span class="flaticon-next-1"></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- end blog -->
-<!-- chamada para contato -->
-<section class="call-to-section">
-    <div class="auto-container">
-        <div class="inner clearfix">
-            <div class="shape-1 animated slideInRight"></div>
-            <div class="shape-2 animated fadeInDown"></div>
-            <div class="">
-                <h2>Let's Get Your Project <br>Started!</h2>
-                <div class="link-box">
-                    <a class="theme-btn btn-style-two" href="/contact">
-                        <i class="btn-curve"></i>
-                        <span class="btn-title">Contact with us</span>
-                    </a>
+    </section>
+    <!-- end blog -->
+    <!-- chamada para contato -->
+    <section class="call-to-section">
+        <div class="auto-container">
+            <div class="inner clearfix">
+                <div class="shape-1 animated slideInRight"></div>
+                <div class="shape-2 animated fadeInDown"></div>
+                <div class="">
+                    <h2>Let's Get Your Project <br>Started!</h2>
+                    <div class="link-box">
+                        <a class="theme-btn btn-style-two" href="/contact">
+                            <i class="btn-curve"></i>
+                            <span class="btn-title">Contact with us</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End chamada para contato -->
-<!-- End Page Content -->
+    </section>
+    <!-- End chamada para contato -->
+    <!-- End Page Content -->
 
 <?php get_footer(); ?>

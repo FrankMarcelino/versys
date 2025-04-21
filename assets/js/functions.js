@@ -7,8 +7,9 @@
     ourServicesTabs();
     popularPackagesSlider();
     tourGuideSlider();
-    bannerScrollEffect(); // Reintroduzido
-    scrollProgress(); // Reintroduzido
+    bannerScrollEffect();
+    scrollProgress();
+    portfolioIsotope(); // Reintroduzido
   });
 
   // *** On load *** //
@@ -281,5 +282,30 @@
       navSpeed: 500,
       dotsSpeed: 500,
     });
+  }
+
+  function portfolioIsotope() {
+    if ($.fn.isotope) {
+      var $portfolioGrid = $(".portfolio-items");
+      $portfolioGrid.isotope({
+        itemSelector: ".portfolio-item",
+        layoutMode: "fitRows",
+      });
+
+      // Filtro ao clicar nos botões
+      $(".portfolio-categories").on("click", "a", function (e) {
+        e.preventDefault();
+        var filterValue = $(this).attr("data-filter");
+        $portfolioGrid.isotope({ filter: filterValue });
+      });
+
+      // Adicionar classe ativa ao botão clicado
+      $(".portfolio-categories a").on("click", function () {
+        $(".portfolio-categories a").removeClass("active");
+        $(this).addClass("active");
+      });
+    } else {
+      console.error("Isotope não está disponível.");
+    }
   }
 })(jQuery);

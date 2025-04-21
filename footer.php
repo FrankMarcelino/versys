@@ -8,7 +8,7 @@
                     <div class="footer-widget logo-widget">
                         <div class="widget-content">
                             <div class="logo">
-                                <a href="/"><img id="fLogo"  src="<?php echo get_template_directory_uri(); ?>/assets/img/logo/logo-branca.avif" alt="" class=""></a>
+                                <a href="/"><img id="fLogo"  src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-branca.png" alt="" class=""></a>
                             </div>
                             <div class="text">
                                 Welcome to our web design agency. Lorem ipsum simply free text dolor sited amet cons cing elit.

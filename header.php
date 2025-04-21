@@ -12,11 +12,12 @@
             <div class="auto-container">
                 <ul class="header-eight__topbar__info">
                     <li>
-                        <i class="flaticon-email-2"></i>
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
                         <a href="mailto:contato@versys.com">contato@versys.com</a>
                     </li>
                     <li>
-                        <i class="flaticon-pin-1"></i>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+
                         Avenida Carlos Gomes 700, 606 - Boa Vista, Porto Alegre - RS | 90480-000
                     </li>
                 </ul>

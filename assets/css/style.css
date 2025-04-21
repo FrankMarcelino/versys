@@ -40,7 +40,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 main,
@@ -744,7 +743,7 @@ blockquote ol:last-child {
   margin-bottom: 0;
 }
 
-blockquote footer,
+
 blockquote small,
 blockquote .small {
   display: block;
@@ -753,7 +752,7 @@ blockquote .small {
   color: #777777;
 }
 
-blockquote footer:before,
+
 blockquote small:before,
 blockquote .small:before {
   content: '\2014 \00A0';
@@ -768,8 +767,6 @@ blockquote.pull-right {
   text-align: right;
 }
 
-.blockquote-reverse footer:before,
-blockquote.pull-right footer:before,
 .blockquote-reverse small:before,
 blockquote.pull-right small:before,
 .blockquote-reverse .small:before,
@@ -777,8 +774,7 @@ blockquote.pull-right .small:before {
   content: '';
 }
 
-.blockquote-reverse footer:after,
-blockquote.pull-right footer:after,
+
 .blockquote-reverse small:after,
 blockquote.pull-right small:after,
 .blockquote-reverse .small:after,
@@ -12069,9 +12065,10 @@ input[type="submit"].form-control:focus {
 
 .os-tabs>li {
   display: inline-block;
-  width: 25%;
+  width: 20%;
   padding-bottom: 40px;
   text-align: center;
+  text-wrap: balance;
   padding: 20px 20px 25px 20px;
   position: relative;
   cursor: pointer;
@@ -14311,17 +14308,7 @@ input[type="submit"].form-control:focus {
  */
 /*  [ 01 ] - Footer Mini
 =========================== */
-#footer-mini {
-  background: #fff;
-  padding: 25px 0;
-  text-align: center;
-}
 
-.logo-footer {
-  float: left;
-  position: relative;
-  z-index: 10;
-}
 
 .copyrights-message {
   color: #222;
@@ -14526,11 +14513,8 @@ input[type="submit"].form-control:focus {
   }
 
   /* Mini Footer */
-  #footer-mini {
-    padding: 40px 0;
-  }
 
-  .logo-footer,
+
   .scroll-top-btn {
     float: none !important;
     display: block;
